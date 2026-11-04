@@ -9,6 +9,7 @@ from __future__ import annotations
 import io
 import time
 import warnings
+from collections.abc import Callable
 from typing import Any
 
 import numpy as np
@@ -42,22 +43,32 @@ def percentiles(ms: list[float]) -> dict[str, float]:
 
 
 @torch.no_grad()
-def latency(model: TinyTransformer, prompt: list[int], new_tokens: int, runs: int, warmup: int) -> dict[str, Any]:
-    """Two measurements: one full forward pass over the prompt (prefill), and generating new_tokens
-    greedily with and without the KV cache."""
+def latency(
+    models: dict[str, TinyTransformer], prompt: list[int], new_tokens: int, runs: int, warmup: int
+) -> dict[str, dict[str, Any]]:
+    """Per model, three measurements: one full forward pass over the prompt (prefill), and generating
+    new_tokens greedily with and without the KV cache.
+
+    Runs are interleaved across models, and the model order flips on every run, so slow periods on a
+    busy laptop (thermal throttling, background work) fall on all models alike rather than on one.
+    """
     x = torch.tensor([prompt])
-    res: dict[str, Any] = {}
-    for name, fn in (
-        ("prefill", lambda: model(x)),
-        ("generate_kv_cache", lambda: generate_greedy(model, prompt, new_tokens, use_cache=True)),
-        ("generate_no_cache", lambda: generate_greedy(model, prompt, new_tokens, use_cache=False)),
-    ):
-        for _ in range(warmup):
-            fn()
-        ms = []
-        for _ in range(runs):
-            t = time.perf_counter()
-            fn()
-            ms.append((time.perf_counter() - t) * 1000)
-        res[name] = percentiles(ms)
-    return res
+
+    def tasks(m: TinyTransformer) -> dict[str, Callable[[], object]]:
+        return {
+            "prefill": lambda: m(x),
+            "generate_kv_cache": lambda: generate_greedy(m, prompt, new_tokens, use_cache=True),
+            "generate_no_cache": lambda: generate_greedy(m, prompt, new_tokens, use_cache=False),
+        }
+
+    fns = {name: tasks(m) for name, m in models.items()}
+    times: dict[str, dict[str, list[float]]] = {name: {k: [] for k in fns[name]} for name in models}
+    names = list(models)
+    for r in range(warmup + runs):
+        for name in names if r % 2 == 0 else names[::-1]:
+            for kind, fn in fns[name].items():
+                t = time.perf_counter()
+                fn()
+                if r >= warmup:
+                    times[name][kind].append((time.perf_counter() - t) * 1000)
+    return {name: {kind: percentiles(ms) for kind, ms in kinds.items()} for name, kinds in times.items()}

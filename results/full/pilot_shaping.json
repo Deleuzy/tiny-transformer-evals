@@ -1,6 +1,6 @@
 {
   "split": "validation",
-  "rule": "pick the candidate with the highest\nin-distribution exact match on validation words; break ties on long words",
+  "rule": "pick the candidate with the highest in-distribution exact match on validation words; break ties on long words",
   "sft": {
     "in_dist": {
       "n": 200,
@@ -20,13 +20,13 @@
       "pairs": 229,
       "in_dist": {
         "n": 200,
-        "exact_match": 0.26,
-        "mean_length_error": 0.57
+        "exact_match": 0.265,
+        "mean_length_error": 0.735
       },
       "long": {
         "n": 150,
-        "exact_match": 0.0267,
-        "mean_length_error": -2.153
+        "exact_match": 0.0667,
+        "mean_length_error": -1.8
       }
     },
     {
@@ -35,13 +35,13 @@
       "pairs": 229,
       "in_dist": {
         "n": 200,
-        "exact_match": 0.48,
-        "mean_length_error": 0.565
+        "exact_match": 0.525,
+        "mean_length_error": 0.58
       },
       "long": {
         "n": 150,
-        "exact_match": 0.3067,
-        "mean_length_error": -1.587
+        "exact_match": 0.3,
+        "mean_length_error": -1.467
       }
     },
     {
@@ -50,13 +50,13 @@
       "pairs": 229,
       "in_dist": {
         "n": 200,
-        "exact_match": 0.905,
-        "mean_length_error": 0.075
+        "exact_match": 0.835,
+        "mean_length_error": 0.13
       },
       "long": {
         "n": 150,
-        "exact_match": 0.04,
-        "mean_length_error": -2.393
+        "exact_match": 0.1333,
+        "mean_length_error": -2.06
       }
     },
     {
@@ -65,13 +65,13 @@
       "pairs": 229,
       "in_dist": {
         "n": 200,
-        "exact_match": 0.905,
-        "mean_length_error": 0.09
+        "exact_match": 0.86,
+        "mean_length_error": 0.13
       },
       "long": {
         "n": 150,
-        "exact_match": 0.1667,
-        "mean_length_error": -2.027
+        "exact_match": 0.1867,
+        "mean_length_error": -1.96
       }
     }
   ],

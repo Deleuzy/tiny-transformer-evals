@@ -135,8 +135,11 @@ def dpo(cfg: RunConfig) -> dict[str, Any]:
     opt = torch.optim.AdamW(policy.parameters(), lr=cfg.dpo.lr, weight_decay=0.0)
     log: list[dict[str, float]] = []
     t0 = time.perf_counter()
+    # Dropout stays off for DPO: with it on, the policy's log-probabilities carry dropout noise that the
+    # frozen reference (in eval mode) does not, so the margin would not start at 0 and would partly
+    # reward noise. Gradients flow the same in eval mode.
+    policy.eval()
     for step in range(cfg.dpo.steps):
-        policy.train()
         batch = [pairs[rng.randrange(len(pairs))] for _ in range(cfg.dpo.batch)]
         prompts = [b["prompt"] for b in batch]
         cx, cy, cm = pack(tok, prompts, [b["chosen"] for b in batch])

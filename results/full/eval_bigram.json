@@ -3,10 +3,10 @@
   "descriptions": {
     "heldout": {
       "measures": "Average next-character cross-entropy on the held-out test split (paragraph blocks never trained on), reported as perplexity and bits per character with a bootstrap 95% interval over windows.",
-      "does_not_measure": "Whether generated text is coherent or useful. Same books and spelling as training, so it says nothing about other domains. Windows are non-overlapping, so early characters in each window see little context."
+      "does_not_measure": "Whether generated text is coherent or useful. Same books and spelling as training, so it says nothing about other domains. Windows are non-overlapping, so early characters in each window see little context. The interval covers only the choice of test windows (which are contiguous, so it is somewhat too narrow), not variation between training runs."
     },
     "word_completion": {
-      "measures": "Exact-match rate when the model, given 96 characters of held-out text and the first 3 letters of a word of 6 or more letters, completes the word by greedy decoding.",
+      "measures": "Exact-match rate when the model, given 96 characters of held-out text from the same paragraph and the first 3 letters of a word of 6 or more letters, completes the word by greedy decoding. Also the share of misses that are another word found in the training text.",
       "does_not_measure": "Understanding. Frequent words and names repeated within a story are easy; a single gold answer marks plausible alternatives wrong."
     },
     "minimal_pairs": {
@@ -14,11 +14,11 @@
       "does_not_measure": "Grammar in general; only these two local corruptions. A model can score well from character statistics alone, which is why the bigram baseline is reported too."
     },
     "reversal": {
-      "measures": "Exact-match rate on the SFT task: given '\\nvend:<word>=' write the word reversed and a newline. In-distribution words have 3 to 8 letters, as in training; 'long' words have 9 to 12 letters, a length never seen in training. mean_length_error is output length minus word length (positive = too long). All eval words come from the test split and are excluded from the training words.",
+      "measures": "Exact-match rate on the SFT task: given '\\nvend:<word>=' write the word reversed and a newline. In-distribution words have 3 to 8 letters, as in training; 'long' words have 9 to 12 letters, a length never seen in training. mean_length_error is output length minus word length (positive = too long). char_accuracy compares characters position by position, so one dropped letter makes every later position wrong. All eval words come from the test split and are excluded from the training words.",
       "does_not_measure": "Instruction following in general. It is one narrow synthetic task."
     },
     "robustness": {
-      "measures": "Bits per character on perturbed or out-of-distribution text, and the change from clean test text. Typos: each letter of the context is replaced by a random letter with probability p, while the targets stay the clean text (how well the model still predicts the right text from a noisy context). Case changes and other books are scored on their own text.",
+      "measures": "Bits per character on perturbed or out-of-distribution text, and the change from clean test text. Typos: each letter of the context is replaced, with probability p, by a different letter of the same case, while the targets stay the clean text (how well the model still predicts the right text from a noisy context); the measured share of changed letters is recorded. Case changes and other books are scored on their own text.",
       "does_not_measure": "Adversarial robustness: the noise is random, not searched for. The unknown-character rate is reported because unknown characters cannot be predicted at all."
     }
   },
@@ -36,30 +36,32 @@
   "word_completion": {
     "n": 400,
     "exact_match": 0.0,
+    "misses": 400,
+    "misses_that_are_training_words": 0.3025,
     "examples": [
       {
-        "word": "vidste",
-        "model": "vide",
+        "word": "ringede",
+        "model": "rin",
         "correct": false
       },
       {
-        "word": "bedste",
-        "model": "bede",
+        "word": "Morgen",
+        "model": "Mor",
         "correct": false
       },
       {
-        "word": "gammel",
-        "model": "game",
+        "word": "Vavenset",
+        "model": "Vave",
         "correct": false
       },
       {
-        "word": "slagtet",
-        "model": "slaaaaaa",
+        "word": "stoppe",
+        "model": "stog",
         "correct": false
       },
       {
-        "word": "beholdt",
-        "model": "behaaaaa",
+        "word": "samlet",
+        "model": "same",
         "correct": false
       }
     ]
@@ -67,38 +69,38 @@
   "minimal_pairs": {
     "word_swap": {
       "n": 300,
-      "accuracy": 0.3333
+      "accuracy": 0.3133
     },
     "char_swap": {
       "n": 300,
-      "accuracy": 0.9067
+      "accuracy": 0.89
     }
   },
   "reversal": {
     "in_dist": {
       "n": 300,
       "exact_match": 0.0,
-      "char_accuracy": 0.032,
+      "char_accuracy": 0.0342,
       "mean_length_error": 3.0,
       "examples": [
         {
-          "word": "møder",
-          "model": "n st st ",
-          "correct": false
-        },
-        {
-          "word": "ventet",
+          "word": "tumlet",
           "model": "n st st s",
           "correct": false
         },
         {
-          "word": "ædle",
-          "model": "n st st",
+          "word": "bekæmpe",
+          "model": "n st st st",
           "correct": false
         },
         {
-          "word": "vækkede",
+          "word": "tegnede",
           "model": "n st st st",
+          "correct": false
+        },
+        {
+          "word": "hinanden",
+          "model": "n st st st ",
           "correct": false
         }
       ]
@@ -106,27 +108,27 @@
     "long": {
       "n": 200,
       "exact_match": 0.0,
-      "char_accuracy": 0.0361,
+      "char_accuracy": 0.0359,
       "mean_length_error": 3.0,
       "examples": [
         {
-          "word": "pomadiseret",
-          "model": "n st st st st ",
+          "word": "besværligt",
+          "model": "n st st st st",
           "correct": false
         },
         {
-          "word": "bestandig",
+          "word": "uanfægtet",
           "model": "n st st st s",
           "correct": false
         },
         {
-          "word": "moderlige",
+          "word": "cæsariske",
           "model": "n st st st s",
           "correct": false
         },
         {
-          "word": "behøvedes",
-          "model": "n st st st s",
+          "word": "glatkæmmet",
+          "model": "n st st st st",
           "correct": false
         }
       ]
@@ -137,14 +139,16 @@
       "bits_per_char": 3.4555
     },
     "typos_5pct_context": {
-      "bits_per_char": 3.5614,
-      "delta_vs_clean": 0.1059,
-      "unknown_char_rate": 0.0
+      "bits_per_char": 3.5667,
+      "delta_vs_clean": 0.1112,
+      "unknown_char_rate": 0.00143,
+      "changed_letter_rate": 0.0495
     },
     "typos_15pct_context": {
-      "bits_per_char": 3.7662,
-      "delta_vs_clean": 0.3107,
-      "unknown_char_rate": 0.0
+      "bits_per_char": 3.7821,
+      "delta_vs_clean": 0.3266,
+      "unknown_char_rate": 0.00437,
+      "changed_letter_rate": 0.1507
     },
     "lowercase": {
       "bits_per_char": 3.4969,

@@ -9,5 +9,6 @@
   "sft": {"steps": 10, "task_batch": 8, "lm_batch": 4, "lr": 0.001, "n_train_words": 200},
   "dpo": {"steps": 5, "batch": 8, "lr": 0.0001, "beta": 0.1, "n_pairs": 16, "nll_weight": 1.0},
   "evals": {"max_items": 20, "max_chars": 4000},
+  "shaping_seeds": [2234],
   "quant": {"runs": 10, "warmup": 2, "prompt_len": 32, "new_tokens": 8}
 }

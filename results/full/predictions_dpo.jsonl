@@ -1,0 +1,1500 @@
+{"correct": false, "gold": "ringede", "id": 0, "miss_is_training_word": true, "output": "ringer", "set": "word_completion"}
+{"correct": true, "gold": "Morgen", "id": 1, "miss_is_training_word": false, "output": "Morgen", "set": "word_completion"}
+{"correct": false, "gold": "Vavenset", "id": 2, "miss_is_training_word": false, "output": "Vaven", "set": "word_completion"}
+{"correct": false, "gold": "stoppe", "id": 3, "miss_is_training_word": true, "output": "stod", "set": "word_completion"}
+{"correct": false, "gold": "samlet", "id": 4, "miss_is_training_word": true, "output": "sammen", "set": "word_completion"}
+{"correct": false, "gold": "denher", "id": 5, "miss_is_training_word": true, "output": "den", "set": "word_completion"}
+{"correct": false, "gold": "Munden", "id": 6, "miss_is_training_word": false, "output": "Mundern", "set": "word_completion"}
+{"correct": false, "gold": "Aftenstund", "id": 7, "miss_is_training_word": true, "output": "Aften", "set": "word_completion"}
+{"correct": false, "gold": "brygge", "id": 8, "miss_is_training_word": true, "output": "bryde", "set": "word_completion"}
+{"correct": true, "gold": "hvordan", "id": 9, "miss_is_training_word": false, "output": "hvordan", "set": "word_completion"}
+{"correct": false, "gold": "Kakkelovnskrogen", "id": 10, "miss_is_training_word": false, "output": "Kakken", "set": "word_completion"}
+{"correct": true, "gold": "sætter", "id": 11, "miss_is_training_word": false, "output": "sætter", "set": "word_completion"}
+{"correct": false, "gold": "Kroppen", "id": 12, "miss_is_training_word": true, "output": "Krogen", "set": "word_completion"}
+{"correct": false, "gold": "dækker", "id": 13, "miss_is_training_word": true, "output": "dækkede", "set": "word_completion"}
+{"correct": false, "gold": "strækker", "id": 14, "miss_is_training_word": true, "output": "straks", "set": "word_completion"}
+{"correct": false, "gold": "Katten", "id": 15, "miss_is_training_word": true, "output": "Katinka", "set": "word_completion"}
+{"correct": false, "gold": "springer", "id": 16, "miss_is_training_word": true, "output": "sprang", "set": "word_completion"}
+{"correct": true, "gold": "Tjeneste", "id": 17, "miss_is_training_word": false, "output": "Tjeneste", "set": "word_completion"}
+{"correct": true, "gold": "Panden", "id": 18, "miss_is_training_word": false, "output": "Panden", "set": "word_completion"}
+{"correct": true, "gold": "afsted", "id": 19, "miss_is_training_word": false, "output": "afsted", "set": "word_completion"}
+{"correct": false, "gold": "stimler", "id": 20, "miss_is_training_word": true, "output": "stille", "set": "word_completion"}
+{"correct": true, "gold": "sammen", "id": 21, "miss_is_training_word": false, "output": "sammen", "set": "word_completion"}
+{"correct": false, "gold": "Faareflok", "id": 22, "miss_is_training_word": true, "output": "Faar", "set": "word_completion"}
+{"correct": true, "gold": "kommer", "id": 23, "miss_is_training_word": false, "output": "kommer", "set": "word_completion"}
+{"correct": false, "gold": "drøftede", "id": 24, "miss_is_training_word": true, "output": "drømmer", "set": "word_completion"}
+{"correct": false, "gold": "Tildragelser", "id": 25, "miss_is_training_word": false, "output": "Tilsidste", "set": "word_completion"}
+{"correct": false, "gold": "dristig", "id": 26, "miss_is_training_word": true, "output": "drikke", "set": "word_completion"}
+{"correct": false, "gold": "Skrædderen", "id": 27, "miss_is_training_word": true, "output": "Skridt", "set": "word_completion"}
+{"correct": false, "gold": "kurere", "id": 28, "miss_is_training_word": false, "output": "kurde", "set": "word_completion"}
+{"correct": false, "gold": "Mosehuset", "id": 29, "miss_is_training_word": false, "output": "Mosen", "set": "word_completion"}
+{"correct": true, "gold": "skulde", "id": 30, "miss_is_training_word": false, "output": "skulde", "set": "word_completion"}
+{"correct": false, "gold": "Hvordan", "id": 31, "miss_is_training_word": true, "output": "Hvor", "set": "word_completion"}
+{"correct": false, "gold": "Hændelser", "id": 32, "miss_is_training_word": true, "output": "Hænder", "set": "word_completion"}
+{"correct": false, "gold": "Bryllup", "id": 33, "miss_is_training_word": false, "output": "Brylling", "set": "word_completion"}
+{"correct": false, "gold": "konfirmerede", "id": 34, "miss_is_training_word": true, "output": "kongen", "set": "word_completion"}
+{"correct": false, "gold": "begynder", "id": 35, "miss_is_training_word": true, "output": "begyndte", "set": "word_completion"}
+{"correct": false, "gold": "maatte", "id": 36, "miss_is_training_word": true, "output": "maa", "set": "word_completion"}
+{"correct": false, "gold": "skikke", "id": 37, "miss_is_training_word": false, "output": "skilde", "set": "word_completion"}
+{"correct": true, "gold": "Datter", "id": 38, "miss_is_training_word": false, "output": "Datter", "set": "word_completion"}
+{"correct": false, "gold": "Forvalteren", "id": 39, "miss_is_training_word": false, "output": "Fortrædet", "set": "word_completion"}
+{"correct": true, "gold": "Præsten", "id": 40, "miss_is_training_word": false, "output": "Præsten", "set": "word_completion"}
+{"correct": false, "gold": "saadan", "id": 41, "miss_is_training_word": true, "output": "saa", "set": "word_completion"}
+{"correct": false, "gold": "nedslagen", "id": 42, "miss_is_training_word": true, "output": "ned", "set": "word_completion"}
+{"correct": true, "gold": "hendes", "id": 43, "miss_is_training_word": false, "output": "hendes", "set": "word_completion"}
+{"correct": false, "gold": "Steden", "id": 44, "miss_is_training_word": true, "output": "Stemmer", "set": "word_completion"}
+{"correct": false, "gold": "Herregaarden", "id": 45, "miss_is_training_word": true, "output": "Herrens", "set": "word_completion"}
+{"correct": true, "gold": "levede", "id": 46, "miss_is_training_word": false, "output": "levede", "set": "word_completion"}
+{"correct": true, "gold": "Jorden", "id": 47, "miss_is_training_word": false, "output": "Jorden", "set": "word_completion"}
+{"correct": false, "gold": "Manden", "id": 48, "miss_is_training_word": true, "output": "Mand", "set": "word_completion"}
+{"correct": false, "gold": "hælder", "id": 49, "miss_is_training_word": false, "output": "hæler", "set": "word_completion"}
+{"correct": false, "gold": "Spaaner", "id": 50, "miss_is_training_word": false, "output": "Spang", "set": "word_completion"}
+{"correct": true, "gold": "Sækken", "id": 51, "miss_is_training_word": false, "output": "Sækken", "set": "word_completion"}
+{"correct": false, "gold": "Dernæst", "id": 52, "miss_is_training_word": true, "output": "Der", "set": "word_completion"}
+{"correct": false, "gold": "Bjærgehimmel", "id": 53, "miss_is_training_word": true, "output": "Bjærgmand", "set": "word_completion"}
+{"correct": false, "gold": "fyldte", "id": 54, "miss_is_training_word": true, "output": "fyldt", "set": "word_completion"}
+{"correct": false, "gold": "tilbage", "id": 55, "miss_is_training_word": true, "output": "til", "set": "word_completion"}
+{"correct": false, "gold": "bjærge", "id": 56, "miss_is_training_word": false, "output": "bjærger", "set": "word_completion"}
+{"correct": true, "gold": "aldrig", "id": 57, "miss_is_training_word": false, "output": "aldrig", "set": "word_completion"}
+{"correct": false, "gold": "tørstige", "id": 58, "miss_is_training_word": false, "output": "tørste", "set": "word_completion"}
+{"correct": true, "gold": "drikke", "id": 59, "miss_is_training_word": false, "output": "drikke", "set": "word_completion"}
+{"correct": true, "gold": "Endelig", "id": 60, "miss_is_training_word": false, "output": "Endelig", "set": "word_completion"}
+{"correct": false, "gold": "morsomt", "id": 61, "miss_is_training_word": false, "output": "morte", "set": "word_completion"}
+{"correct": false, "gold": "saadan", "id": 62, "miss_is_training_word": true, "output": "saa", "set": "word_completion"}
+{"correct": false, "gold": "Stykker", "id": 63, "miss_is_training_word": false, "output": "Stykken", "set": "word_completion"}
+{"correct": false, "gold": "rykker", "id": 64, "miss_is_training_word": true, "output": "rykkede", "set": "word_completion"}
+{"correct": false, "gold": "Ønsker", "id": 65, "miss_is_training_word": true, "output": "Ønske", "set": "word_completion"}
+{"correct": false, "gold": "Forhøjningen", "id": 66, "miss_is_training_word": false, "output": "Forstolen", "set": "word_completion"}
+{"correct": true, "gold": "Spejlet", "id": 67, "miss_is_training_word": false, "output": "Spejlet", "set": "word_completion"}
+{"correct": true, "gold": "Dagligstuen", "id": 68, "miss_is_training_word": false, "output": "Dagligstuen", "set": "word_completion"}
+{"correct": false, "gold": "Middelaar", "id": 69, "miss_is_training_word": false, "output": "Middagstue", "set": "word_completion"}
+{"correct": true, "gold": "Frøken", "id": 70, "miss_is_training_word": false, "output": "Frøken", "set": "word_completion"}
+{"correct": false, "gold": "dansede", "id": 71, "miss_is_training_word": true, "output": "danse", "set": "word_completion"}
+{"correct": false, "gold": "Banens", "id": 72, "miss_is_training_word": true, "output": "Banen", "set": "word_completion"}
+{"correct": true, "gold": "hilste", "id": 73, "miss_is_training_word": false, "output": "hilste", "set": "word_completion"}
+{"correct": false, "gold": "Minutter", "id": 74, "miss_is_training_word": true, "output": "Minuter", "set": "word_completion"}
+{"correct": true, "gold": "skulde", "id": 75, "miss_is_training_word": false, "output": "skulde", "set": "word_completion"}
+{"correct": false, "gold": "Karussel", "id": 76, "miss_is_training_word": true, "output": "Karlen", "set": "word_completion"}
+{"correct": true, "gold": "nikkede", "id": 77, "miss_is_training_word": false, "output": "nikkede", "set": "word_completion"}
+{"correct": false, "gold": "Frøken", "id": 78, "miss_is_training_word": false, "output": "Frøkene", "set": "word_completion"}
+{"correct": true, "gold": "Jorden", "id": 79, "miss_is_training_word": false, "output": "Jorden", "set": "word_completion"}
+{"correct": false, "gold": "skinnede", "id": 80, "miss_is_training_word": true, "output": "skilte", "set": "word_completion"}
+{"correct": false, "gold": "Sommergæster", "id": 81, "miss_is_training_word": false, "output": "Sommerdagen", "set": "word_completion"}
+{"correct": false, "gold": "Sengested", "id": 82, "miss_is_training_word": true, "output": "Sengen", "set": "word_completion"}
+{"correct": false, "gold": "Præstegaarden", "id": 83, "miss_is_training_word": true, "output": "Præsten", "set": "word_completion"}
+{"correct": true, "gold": "straks", "id": 84, "miss_is_training_word": false, "output": "straks", "set": "word_completion"}
+{"correct": false, "gold": "Chokolade", "id": 85, "miss_is_training_word": false, "output": "Choldet", "set": "word_completion"}
+{"correct": false, "gold": "Toiletspejlet", "id": 86, "miss_is_training_word": false, "output": "Toine", "set": "word_completion"}
+{"correct": false, "gold": "Hattebaand", "id": 87, "miss_is_training_word": false, "output": "Hatter", "set": "word_completion"}
+{"correct": false, "gold": "ingenting", "id": 88, "miss_is_training_word": true, "output": "ingen", "set": "word_completion"}
+{"correct": false, "gold": "saadan", "id": 89, "miss_is_training_word": true, "output": "saa", "set": "word_completion"}
+{"correct": false, "gold": "Skygge", "id": 90, "miss_is_training_word": true, "output": "Skylder", "set": "word_completion"}
+{"correct": false, "gold": "trevler", "id": 91, "miss_is_training_word": true, "output": "tre", "set": "word_completion"}
+{"correct": false, "gold": "Hjerte", "id": 92, "miss_is_training_word": true, "output": "Hjem", "set": "word_completion"}
+{"correct": false, "gold": "Legeme", "id": 93, "miss_is_training_word": false, "output": "Legene", "set": "word_completion"}
+{"correct": false, "gold": "lykkelige", "id": 94, "miss_is_training_word": false, "output": "lykkede", "set": "word_completion"}
+{"correct": true, "gold": "Hænder", "id": 95, "miss_is_training_word": false, "output": "Hænder", "set": "word_completion"}
+{"correct": true, "gold": "begyndte", "id": 96, "miss_is_training_word": false, "output": "begyndte", "set": "word_completion"}
+{"correct": false, "gold": "dansende", "id": 97, "miss_is_training_word": true, "output": "danske", "set": "word_completion"}
+{"correct": false, "gold": "begyndt", "id": 98, "miss_is_training_word": true, "output": "begge", "set": "word_completion"}
+{"correct": false, "gold": "Oehlenschl", "id": 99, "miss_is_training_word": false, "output": "Oehligheden", "set": "word_completion"}
+{"correct": false, "gold": "strømmende", "id": 100, "miss_is_training_word": true, "output": "straks", "set": "word_completion"}
+{"correct": false, "gold": "Hedengangne", "id": 101, "miss_is_training_word": false, "output": "Hedes", "set": "word_completion"}
+{"correct": false, "gold": "skærme", "id": 102, "miss_is_training_word": true, "output": "skælde", "set": "word_completion"}
+{"correct": false, "gold": "Kisten", "id": 103, "miss_is_training_word": false, "output": "Kistens", "set": "word_completion"}
+{"correct": false, "gold": "Husarer", "id": 104, "miss_is_training_word": true, "output": "Hus", "set": "word_completion"}
+{"correct": true, "gold": "begyndte", "id": 105, "miss_is_training_word": false, "output": "begyndte", "set": "word_completion"}
+{"correct": false, "gold": "Fredens", "id": 106, "miss_is_training_word": false, "output": "Freden", "set": "word_completion"}
+{"correct": false, "gold": "Syvende", "id": 107, "miss_is_training_word": false, "output": "Syvninde", "set": "word_completion"}
+{"correct": false, "gold": "fuldendt", "id": 108, "miss_is_training_word": true, "output": "fuldt", "set": "word_completion"}
+{"correct": false, "gold": "Indgang", "id": 109, "miss_is_training_word": false, "output": "Inders", "set": "word_completion"}
+{"correct": false, "gold": "mislykkedes", "id": 110, "miss_is_training_word": true, "output": "miste", "set": "word_completion"}
+{"correct": false, "gold": "hvordan", "id": 111, "miss_is_training_word": true, "output": "hvor", "set": "word_completion"}
+{"correct": false, "gold": "Svende", "id": 112, "miss_is_training_word": false, "output": "Sveder", "set": "word_completion"}
+{"correct": false, "gold": "Selskab", "id": 113, "miss_is_training_word": false, "output": "Selskabe", "set": "word_completion"}
+{"correct": false, "gold": "Udnævnelsen", "id": 114, "miss_is_training_word": false, "output": "Udnivelsen", "set": "word_completion"}
+{"correct": false, "gold": "urolige", "id": 115, "miss_is_training_word": true, "output": "urolig", "set": "word_completion"}
+{"correct": false, "gold": "Lygterne", "id": 116, "miss_is_training_word": true, "output": "Lygten", "set": "word_completion"}
+{"correct": false, "gold": "fulgte", "id": 117, "miss_is_training_word": false, "output": "fuldte", "set": "word_completion"}
+{"correct": true, "gold": "Sangen", "id": 118, "miss_is_training_word": false, "output": "Sangen", "set": "word_completion"}
+{"correct": false, "gold": "indeni", "id": 119, "miss_is_training_word": true, "output": "ind", "set": "word_completion"}
+{"correct": false, "gold": "Farvel", "id": 120, "miss_is_training_word": false, "output": "Farvels", "set": "word_completion"}
+{"correct": true, "gold": "Trappen", "id": 121, "miss_is_training_word": false, "output": "Trappen", "set": "word_completion"}
+{"correct": false, "gold": "alting", "id": 122, "miss_is_training_word": true, "output": "altid", "set": "word_completion"}
+{"correct": true, "gold": "kastet", "id": 123, "miss_is_training_word": false, "output": "kastet", "set": "word_completion"}
+{"correct": false, "gold": "geskæftig", "id": 124, "miss_is_training_word": false, "output": "gesom", "set": "word_completion"}
+{"correct": false, "gold": "spiste", "id": 125, "miss_is_training_word": false, "output": "spilled", "set": "word_completion"}
+{"correct": false, "gold": "begærligt", "id": 126, "miss_is_training_word": true, "output": "begge", "set": "word_completion"}
+{"correct": false, "gold": "fyldte", "id": 127, "miss_is_training_word": true, "output": "fyldige", "set": "word_completion"}
+{"correct": false, "gold": "Hovederne", "id": 128, "miss_is_training_word": true, "output": "Hovedet", "set": "word_completion"}
+{"correct": true, "gold": "Vognen", "id": 129, "miss_is_training_word": false, "output": "Vognen", "set": "word_completion"}
+{"correct": false, "gold": "Flygtende", "id": 130, "miss_is_training_word": true, "output": "Flygter", "set": "word_completion"}
+{"correct": false, "gold": "Frysende", "id": 131, "miss_is_training_word": false, "output": "Frygterne", "set": "word_completion"}
+{"correct": true, "gold": "raabte", "id": 132, "miss_is_training_word": false, "output": "raabte", "set": "word_completion"}
+{"correct": false, "gold": "Blinde", "id": 133, "miss_is_training_word": true, "output": "Blik", "set": "word_completion"}
+{"correct": true, "gold": "syntes", "id": 134, "miss_is_training_word": false, "output": "syntes", "set": "word_completion"}
+{"correct": true, "gold": "mellem", "id": 135, "miss_is_training_word": false, "output": "mellem", "set": "word_completion"}
+{"correct": true, "gold": "hendes", "id": 136, "miss_is_training_word": false, "output": "hendes", "set": "word_completion"}
+{"correct": false, "gold": "livløse", "id": 137, "miss_is_training_word": false, "output": "livlige", "set": "word_completion"}
+{"correct": true, "gold": "sammen", "id": 138, "miss_is_training_word": false, "output": "sammen", "set": "word_completion"}
+{"correct": true, "gold": "første", "id": 139, "miss_is_training_word": false, "output": "første", "set": "word_completion"}
+{"correct": true, "gold": "Haanden", "id": 140, "miss_is_training_word": false, "output": "Haanden", "set": "word_completion"}
+{"correct": false, "gold": "glemte", "id": 141, "miss_is_training_word": true, "output": "glemt", "set": "word_completion"}
+{"correct": true, "gold": "lyttede", "id": 142, "miss_is_training_word": false, "output": "lyttede", "set": "word_completion"}
+{"correct": false, "gold": "Skolen", "id": 143, "miss_is_training_word": false, "output": "Skovrid", "set": "word_completion"}
+{"correct": true, "gold": "sidste", "id": 144, "miss_is_training_word": false, "output": "sidste", "set": "word_completion"}
+{"correct": false, "gold": "Buskene", "id": 145, "miss_is_training_word": false, "output": "Busken", "set": "word_completion"}
+{"correct": true, "gold": "Roserne", "id": 146, "miss_is_training_word": false, "output": "Roserne", "set": "word_completion"}
+{"correct": false, "gold": "Spøgelser", "id": 147, "miss_is_training_word": true, "output": "Spørgsmaal", "set": "word_completion"}
+{"correct": false, "gold": "Aftnen", "id": 148, "miss_is_training_word": true, "output": "Aftenen", "set": "word_completion"}
+{"correct": true, "gold": "Moderen", "id": 149, "miss_is_training_word": false, "output": "Moderen", "set": "word_completion"}
+{"correct": false, "gold": "samvittighedsfuld", "id": 150, "miss_is_training_word": true, "output": "sammen", "set": "word_completion"}
+{"correct": false, "gold": "ansaaes", "id": 151, "miss_is_training_word": false, "output": "anske", "set": "word_completion"}
+{"correct": false, "gold": "Embedsstilling", "id": 152, "miss_is_training_word": false, "output": "Emberds", "set": "word_completion"}
+{"correct": false, "gold": "indrette", "id": 153, "miss_is_training_word": true, "output": "inde", "set": "word_completion"}
+{"correct": false, "gold": "hyggeligt", "id": 154, "miss_is_training_word": true, "output": "hyggelige", "set": "word_completion"}
+{"correct": false, "gold": "Herskerblod", "id": 155, "miss_is_training_word": true, "output": "Herrer", "set": "word_completion"}
+{"correct": false, "gold": "attraaede", "id": 156, "miss_is_training_word": true, "output": "atter", "set": "word_completion"}
+{"correct": false, "gold": "Uafhængighed", "id": 157, "miss_is_training_word": false, "output": "Uafladen", "set": "word_completion"}
+{"correct": false, "gold": "beskæftiget", "id": 158, "miss_is_training_word": false, "output": "bestandsket", "set": "word_completion"}
+{"correct": true, "gold": "første", "id": 159, "miss_is_training_word": false, "output": "første", "set": "word_completion"}
+{"correct": false, "gold": "hensygnende", "id": 160, "miss_is_training_word": true, "output": "hendes", "set": "word_completion"}
+{"correct": false, "gold": "uddybe", "id": 161, "miss_is_training_word": false, "output": "udden", "set": "word_completion"}
+{"correct": false, "gold": "Velgører", "id": 162, "miss_is_training_word": false, "output": "Velder", "set": "word_completion"}
+{"correct": true, "gold": "Ensomhed", "id": 163, "miss_is_training_word": false, "output": "Ensomhed", "set": "word_completion"}
+{"correct": false, "gold": "udvidede", "id": 164, "miss_is_training_word": false, "output": "udvilde", "set": "word_completion"}
+{"correct": true, "gold": "kommen", "id": 165, "miss_is_training_word": false, "output": "kommen", "set": "word_completion"}
+{"correct": false, "gold": "uddybede", "id": 166, "miss_is_training_word": false, "output": "udden", "set": "word_completion"}
+{"correct": false, "gold": "Indsøer", "id": 167, "miss_is_training_word": false, "output": "Indersyn", "set": "word_completion"}
+{"correct": false, "gold": "Trolde", "id": 168, "miss_is_training_word": true, "output": "Trold", "set": "word_completion"}
+{"correct": false, "gold": "Ingeniør", "id": 169, "miss_is_training_word": true, "output": "Ingen", "set": "word_completion"}
+{"correct": false, "gold": "Overordnedes", "id": 170, "miss_is_training_word": false, "output": "Overstand", "set": "word_completion"}
+{"correct": false, "gold": "Vejassistent", "id": 171, "miss_is_training_word": true, "output": "Vejret", "set": "word_completion"}
+{"correct": false, "gold": "Overhøring", "id": 172, "miss_is_training_word": false, "output": "Overden", "set": "word_completion"}
+{"correct": false, "gold": "kramme", "id": 173, "miss_is_training_word": false, "output": "krafte", "set": "word_completion"}
+{"correct": false, "gold": "Læsning", "id": 174, "miss_is_training_word": false, "output": "Læsen", "set": "word_completion"}
+{"correct": false, "gold": "utidige", "id": 175, "miss_is_training_word": false, "output": "util", "set": "word_completion"}
+{"correct": false, "gold": "omskifteligt", "id": 176, "miss_is_training_word": false, "output": "omsin", "set": "word_completion"}
+{"correct": false, "gold": "Øjekast", "id": 177, "miss_is_training_word": true, "output": "Øjeblik", "set": "word_completion"}
+{"correct": false, "gold": "Spisegilde", "id": 178, "miss_is_training_word": true, "output": "Spil", "set": "word_completion"}
+{"correct": false, "gold": "virksomme", "id": 179, "miss_is_training_word": true, "output": "virkelig", "set": "word_completion"}
+{"correct": false, "gold": "udbredte", "id": 180, "miss_is_training_word": false, "output": "udbrugte", "set": "word_completion"}
+{"correct": false, "gold": "omtalte", "id": 181, "miss_is_training_word": false, "output": "omtagend", "set": "word_completion"}
+{"correct": true, "gold": "mellem", "id": 182, "miss_is_training_word": false, "output": "mellem", "set": "word_completion"}
+{"correct": true, "gold": "bleven", "id": 183, "miss_is_training_word": false, "output": "bleven", "set": "word_completion"}
+{"correct": false, "gold": "indtagen", "id": 184, "miss_is_training_word": true, "output": "ind", "set": "word_completion"}
+{"correct": false, "gold": "fortroligt", "id": 185, "miss_is_training_word": true, "output": "for", "set": "word_completion"}
+{"correct": true, "gold": "hyppige", "id": 186, "miss_is_training_word": false, "output": "hyppige", "set": "word_completion"}
+{"correct": false, "gold": "Tilfredsstillelse", "id": 187, "miss_is_training_word": false, "output": "Tilførelse", "set": "word_completion"}
+{"correct": true, "gold": "allerede", "id": 188, "miss_is_training_word": false, "output": "allerede", "set": "word_completion"}
+{"correct": false, "gold": "bølgekruset", "id": 189, "miss_is_training_word": false, "output": "bølede", "set": "word_completion"}
+{"correct": false, "gold": "genial", "id": 190, "miss_is_training_word": true, "output": "gennem", "set": "word_completion"}
+{"correct": true, "gold": "Hænder", "id": 191, "miss_is_training_word": false, "output": "Hænder", "set": "word_completion"}
+{"correct": false, "gold": "Oprøreren", "id": 192, "miss_is_training_word": false, "output": "Oprinsen", "set": "word_completion"}
+{"correct": false, "gold": "omstyrte", "id": 193, "miss_is_training_word": false, "output": "omsig", "set": "word_completion"}
+{"correct": false, "gold": "reformere", "id": 194, "miss_is_training_word": false, "output": "refter", "set": "word_completion"}
+{"correct": false, "gold": "Kunsten", "id": 195, "miss_is_training_word": true, "output": "Kunst", "set": "word_completion"}
+{"correct": false, "gold": "Professorer", "id": 196, "miss_is_training_word": true, "output": "Provsten", "set": "word_completion"}
+{"correct": false, "gold": "Spottefugl", "id": 197, "miss_is_training_word": false, "output": "Sporten", "set": "word_completion"}
+{"correct": false, "gold": "Skjortebryst", "id": 198, "miss_is_training_word": true, "output": "Skjorte", "set": "word_completion"}
+{"correct": false, "gold": "oftest", "id": 199, "miss_is_training_word": true, "output": "oftere", "set": "word_completion"}
+{"correct": false, "gold": "undertiden", "id": 200, "miss_is_training_word": true, "output": "under", "set": "word_completion"}
+{"correct": false, "gold": "blandede", "id": 201, "miss_is_training_word": true, "output": "blandt", "set": "word_completion"}
+{"correct": false, "gold": "ædruelige", "id": 202, "miss_is_training_word": false, "output": "ædrige", "set": "word_completion"}
+{"correct": false, "gold": "inddraget", "id": 203, "miss_is_training_word": true, "output": "ind", "set": "word_completion"}
+{"correct": false, "gold": "Kinders", "id": 204, "miss_is_training_word": true, "output": "Kinder", "set": "word_completion"}
+{"correct": true, "gold": "Opmærksomhed", "id": 205, "miss_is_training_word": false, "output": "Opmærksomhed", "set": "word_completion"}
+{"correct": false, "gold": "anerkende", "id": 206, "miss_is_training_word": true, "output": "ane", "set": "word_completion"}
+{"correct": false, "gold": "Samtalen", "id": 207, "miss_is_training_word": true, "output": "Sammen", "set": "word_completion"}
+{"correct": false, "gold": "Næring", "id": 208, "miss_is_training_word": false, "output": "Nærs", "set": "word_completion"}
+{"correct": false, "gold": "Indbildningskraften", "id": 209, "miss_is_training_word": true, "output": "Inde", "set": "word_completion"}
+{"correct": false, "gold": "aldeles", "id": 210, "miss_is_training_word": true, "output": "aldrig", "set": "word_completion"}
+{"correct": false, "gold": "Fremtidsværk", "id": 211, "miss_is_training_word": false, "output": "Freds", "set": "word_completion"}
+{"correct": true, "gold": "Kunsten", "id": 212, "miss_is_training_word": false, "output": "Kunsten", "set": "word_completion"}
+{"correct": false, "gold": "Anledning", "id": 213, "miss_is_training_word": false, "output": "Anleanden", "set": "word_completion"}
+{"correct": false, "gold": "rimede", "id": 214, "miss_is_training_word": false, "output": "rimelig", "set": "word_completion"}
+{"correct": false, "gold": "komisk", "id": 215, "miss_is_training_word": true, "output": "kom", "set": "word_completion"}
+{"correct": true, "gold": "greben", "id": 216, "miss_is_training_word": false, "output": "greben", "set": "word_completion"}
+{"correct": false, "gold": "Skabning", "id": 217, "miss_is_training_word": false, "output": "Skaaren", "set": "word_completion"}
+{"correct": false, "gold": "lutter", "id": 218, "miss_is_training_word": true, "output": "luttede", "set": "word_completion"}
+{"correct": false, "gold": "berømte", "id": 219, "miss_is_training_word": false, "output": "berøge", "set": "word_completion"}
+{"correct": false, "gold": "skjult", "id": 220, "miss_is_training_word": false, "output": "skjulen", "set": "word_completion"}
+{"correct": false, "gold": "Talent", "id": 221, "miss_is_training_word": true, "output": "Taler", "set": "word_completion"}
+{"correct": false, "gold": "uklippet", "id": 222, "miss_is_training_word": true, "output": "uklare", "set": "word_completion"}
+{"correct": false, "gold": "Hentydninger", "id": 223, "miss_is_training_word": false, "output": "Henrichsdoran", "set": "word_completion"}
+{"correct": false, "gold": "hurtige", "id": 224, "miss_is_training_word": true, "output": "hurtig", "set": "word_completion"}
+{"correct": false, "gold": "sejrer", "id": 225, "miss_is_training_word": true, "output": "sejler", "set": "word_completion"}
+{"correct": false, "gold": "virkede", "id": 226, "miss_is_training_word": true, "output": "virkelig", "set": "word_completion"}
+{"correct": true, "gold": "Fritjof", "id": 227, "miss_is_training_word": false, "output": "Fritjof", "set": "word_completion"}
+{"correct": false, "gold": "Gulvet", "id": 228, "miss_is_training_word": false, "output": "Gulds", "set": "word_completion"}
+{"correct": true, "gold": "øvrige", "id": 229, "miss_is_training_word": false, "output": "øvrige", "set": "word_completion"}
+{"correct": false, "gold": "vinløvomkransede", "id": 230, "miss_is_training_word": true, "output": "vinde", "set": "word_completion"}
+{"correct": false, "gold": "uafbrudt", "id": 231, "miss_is_training_word": false, "output": "uafladet", "set": "word_completion"}
+{"correct": false, "gold": "Venners", "id": 232, "miss_is_training_word": false, "output": "Venneten", "set": "word_completion"}
+{"correct": true, "gold": "Bekendte", "id": 233, "miss_is_training_word": false, "output": "Bekendte", "set": "word_completion"}
+{"correct": false, "gold": "Nathan", "id": 234, "miss_is_training_word": true, "output": "Natten", "set": "word_completion"}
+{"correct": false, "gold": "hyppig", "id": 235, "miss_is_training_word": false, "output": "hyppede", "set": "word_completion"}
+{"correct": true, "gold": "Haanden", "id": 236, "miss_is_training_word": false, "output": "Haanden", "set": "word_completion"}
+{"correct": true, "gold": "sidste", "id": 237, "miss_is_training_word": false, "output": "sidste", "set": "word_completion"}
+{"correct": true, "gold": "kaldte", "id": 238, "miss_is_training_word": false, "output": "kaldte", "set": "word_completion"}
+{"correct": false, "gold": "desuden", "id": 239, "miss_is_training_word": false, "output": "desudet", "set": "word_completion"}
+{"correct": false, "gold": "Landets", "id": 240, "miss_is_training_word": false, "output": "Landsbor", "set": "word_completion"}
+{"correct": false, "gold": "Drikkebrødrene", "id": 241, "miss_is_training_word": true, "output": "Drikken", "set": "word_completion"}
+{"correct": false, "gold": "standsede", "id": 242, "miss_is_training_word": true, "output": "stadig", "set": "word_completion"}
+{"correct": false, "gold": "Trappestige", "id": 243, "miss_is_training_word": true, "output": "Trappen", "set": "word_completion"}
+{"correct": false, "gold": "hvormed", "id": 244, "miss_is_training_word": true, "output": "hvor", "set": "word_completion"}
+{"correct": false, "gold": "Menneskene", "id": 245, "miss_is_training_word": true, "output": "Mennesker", "set": "word_completion"}
+{"correct": true, "gold": "lyttede", "id": 246, "miss_is_training_word": false, "output": "lyttede", "set": "word_completion"}
+{"correct": false, "gold": "allevegnefra", "id": 247, "miss_is_training_word": true, "output": "alle", "set": "word_completion"}
+{"correct": false, "gold": "Hanegal", "id": 248, "miss_is_training_word": false, "output": "Hander", "set": "word_completion"}
+{"correct": true, "gold": "skulde", "id": 249, "miss_is_training_word": false, "output": "skulde", "set": "word_completion"}
+{"correct": true, "gold": "Ryggen", "id": 250, "miss_is_training_word": false, "output": "Ryggen", "set": "word_completion"}
+{"correct": false, "gold": "taktfast", "id": 251, "miss_is_training_word": true, "output": "takkede", "set": "word_completion"}
+{"correct": false, "gold": "Lygteskær", "id": 252, "miss_is_training_word": false, "output": "Lygtenhede", "set": "word_completion"}
+{"correct": true, "gold": "Menneske", "id": 253, "miss_is_training_word": false, "output": "Menneske", "set": "word_completion"}
+{"correct": false, "gold": "vildfarende", "id": 254, "miss_is_training_word": true, "output": "vilde", "set": "word_completion"}
+{"correct": false, "gold": "sparsommere", "id": 255, "miss_is_training_word": false, "output": "spart", "set": "word_completion"}
+{"correct": false, "gold": "Skodderne", "id": 256, "miss_is_training_word": false, "output": "Skovridere", "set": "word_completion"}
+{"correct": false, "gold": "hørtes", "id": 257, "miss_is_training_word": true, "output": "hørte", "set": "word_completion"}
+{"correct": false, "gold": "tydelig", "id": 258, "miss_is_training_word": false, "output": "tyde", "set": "word_completion"}
+{"correct": false, "gold": "Hjertensfrydgade", "id": 259, "miss_is_training_word": true, "output": "Hjem", "set": "word_completion"}
+{"correct": false, "gold": "aflæste", "id": 260, "miss_is_training_word": false, "output": "afladend", "set": "word_completion"}
+{"correct": true, "gold": "Haanden", "id": 261, "miss_is_training_word": false, "output": "Haanden", "set": "word_completion"}
+{"correct": false, "gold": "aabnes", "id": 262, "miss_is_training_word": false, "output": "aabe", "set": "word_completion"}
+{"correct": true, "gold": "rømmede", "id": 263, "miss_is_training_word": false, "output": "rømmede", "set": "word_completion"}
+{"correct": false, "gold": "rødkantede", "id": 264, "miss_is_training_word": true, "output": "røde", "set": "word_completion"}
+{"correct": false, "gold": "Bakkenbarter", "id": 265, "miss_is_training_word": true, "output": "Bakken", "set": "word_completion"}
+{"correct": false, "gold": "deroppe", "id": 266, "miss_is_training_word": true, "output": "der", "set": "word_completion"}
+{"correct": false, "gold": "forgæves", "id": 267, "miss_is_training_word": true, "output": "for", "set": "word_completion"}
+{"correct": true, "gold": "næsten", "id": 268, "miss_is_training_word": false, "output": "næsten", "set": "word_completion"}
+{"correct": false, "gold": "Belønning", "id": 269, "miss_is_training_word": true, "output": "Bel", "set": "word_completion"}
+{"correct": false, "gold": "Dødvande", "id": 270, "miss_is_training_word": true, "output": "Døden", "set": "word_completion"}
+{"correct": false, "gold": "Ingeniørforeningen", "id": 271, "miss_is_training_word": true, "output": "Ingen", "set": "word_completion"}
+{"correct": false, "gold": "Hovedredaktør", "id": 272, "miss_is_training_word": true, "output": "Hovedet", "set": "word_completion"}
+{"correct": false, "gold": "Maanedsskrift", "id": 273, "miss_is_training_word": true, "output": "Maade", "set": "word_completion"}
+{"correct": false, "gold": "Oversigtsplaner", "id": 274, "miss_is_training_word": false, "output": "Overdrevis", "set": "word_completion"}
+{"correct": false, "gold": "sammentrængt", "id": 275, "miss_is_training_word": true, "output": "sammen", "set": "word_completion"}
+{"correct": false, "gold": "Offenliggørelse", "id": 276, "miss_is_training_word": true, "output": "Officererne", "set": "word_completion"}
+{"correct": false, "gold": "Maanedsskriftet", "id": 277, "miss_is_training_word": true, "output": "Maaden", "set": "word_completion"}
+{"correct": false, "gold": "bekendt", "id": 278, "miss_is_training_word": false, "output": "bekrivet", "set": "word_completion"}
+{"correct": false, "gold": "Forstue", "id": 279, "miss_is_training_word": true, "output": "Forældre", "set": "word_completion"}
+{"correct": false, "gold": "purhaaret", "id": 280, "miss_is_training_word": false, "output": "purgte", "set": "word_completion"}
+{"correct": true, "gold": "Gulvet", "id": 281, "miss_is_training_word": false, "output": "Gulvet", "set": "word_completion"}
+{"correct": false, "gold": "anbragt", "id": 282, "miss_is_training_word": true, "output": "anbragte", "set": "word_completion"}
+{"correct": false, "gold": "meddelte", "id": 283, "miss_is_training_word": true, "output": "med", "set": "word_completion"}
+{"correct": true, "gold": "mellem", "id": 284, "miss_is_training_word": false, "output": "mellem", "set": "word_completion"}
+{"correct": false, "gold": "Urimeligheder", "id": 285, "miss_is_training_word": false, "output": "Urinder", "set": "word_completion"}
+{"correct": false, "gold": "fundet", "id": 286, "miss_is_training_word": false, "output": "fundt", "set": "word_completion"}
+{"correct": false, "gold": "storartet", "id": 287, "miss_is_training_word": true, "output": "stor", "set": "word_completion"}
+{"correct": false, "gold": "angaar", "id": 288, "miss_is_training_word": true, "output": "angst", "set": "word_completion"}
+{"correct": true, "gold": "ligesom", "id": 289, "miss_is_training_word": false, "output": "ligesom", "set": "word_completion"}
+{"correct": false, "gold": "engagert", "id": 290, "miss_is_training_word": true, "output": "engang", "set": "word_completion"}
+{"correct": false, "gold": "mageligt", "id": 291, "miss_is_training_word": true, "output": "mage", "set": "word_completion"}
+{"correct": true, "gold": "trækker", "id": 292, "miss_is_training_word": false, "output": "trækker", "set": "word_completion"}
+{"correct": false, "gold": "adskillige", "id": 293, "miss_is_training_word": false, "output": "adskulde", "set": "word_completion"}
+{"correct": false, "gold": "Fornemmelsen", "id": 294, "miss_is_training_word": true, "output": "Foraaret", "set": "word_completion"}
+{"correct": true, "gold": "virkelige", "id": 295, "miss_is_training_word": false, "output": "virkelige", "set": "word_completion"}
+{"correct": false, "gold": "Rigdoms", "id": 296, "miss_is_training_word": true, "output": "Riger", "set": "word_completion"}
+{"correct": false, "gold": "Stukloft", "id": 297, "miss_is_training_word": true, "output": "Stuen", "set": "word_completion"}
+{"correct": false, "gold": "lueforgyldte", "id": 298, "miss_is_training_word": true, "output": "luende", "set": "word_completion"}
+{"correct": false, "gold": "Pillespejle", "id": 299, "miss_is_training_word": false, "output": "Pilader", "set": "word_completion"}
+{"correct": false, "gold": "Statuetter", "id": 300, "miss_is_training_word": false, "output": "Staldmanden", "set": "word_completion"}
+{"correct": false, "gold": "Lænestole", "id": 301, "miss_is_training_word": false, "output": "Lænderne", "set": "word_completion"}
+{"correct": false, "gold": "Bladgrupper", "id": 302, "miss_is_training_word": false, "output": "Blader", "set": "word_completion"}
+{"correct": false, "gold": "Døraabningen", "id": 303, "miss_is_training_word": true, "output": "Døren", "set": "word_completion"}
+{"correct": false, "gold": "Overtøj", "id": 304, "miss_is_training_word": false, "output": "Overden", "set": "word_completion"}
+{"correct": false, "gold": "stoppede", "id": 305, "miss_is_training_word": true, "output": "stod", "set": "word_completion"}
+{"correct": false, "gold": "pudsig", "id": 306, "miss_is_training_word": false, "output": "pudseli", "set": "word_completion"}
+{"correct": false, "gold": "sjælden", "id": 307, "miss_is_training_word": false, "output": "sjælpend", "set": "word_completion"}
+{"correct": true, "gold": "Spørgsmaal", "id": 308, "miss_is_training_word": false, "output": "Spørgsmaal", "set": "word_completion"}
+{"correct": false, "gold": "blussende", "id": 309, "miss_is_training_word": false, "output": "blundte", "set": "word_completion"}
+{"correct": false, "gold": "Selskabssalenes", "id": 310, "miss_is_training_word": true, "output": "Selskabet", "set": "word_completion"}
+{"correct": false, "gold": "Lampens", "id": 311, "miss_is_training_word": true, "output": "Lampen", "set": "word_completion"}
+{"correct": false, "gold": "Sammenligningen", "id": 312, "miss_is_training_word": true, "output": "Samtaler", "set": "word_completion"}
+{"correct": true, "gold": "skulde", "id": 313, "miss_is_training_word": false, "output": "skulde", "set": "word_completion"}
+{"correct": false, "gold": "Bjerregrav", "id": 314, "miss_is_training_word": false, "output": "Bjerde", "set": "word_completion"}
+{"correct": true, "gold": "Udfordring", "id": 315, "miss_is_training_word": false, "output": "Udfordring", "set": "word_completion"}
+{"correct": false, "gold": "villet", "id": 316, "miss_is_training_word": true, "output": "vilde", "set": "word_completion"}
+{"correct": true, "gold": "skulde", "id": 317, "miss_is_training_word": false, "output": "skulde", "set": "word_completion"}
+{"correct": false, "gold": "brændselsfattigt", "id": 318, "miss_is_training_word": true, "output": "brændt", "set": "word_completion"}
+{"correct": false, "gold": "kostbart", "id": 319, "miss_is_training_word": true, "output": "koste", "set": "word_completion"}
+{"correct": false, "gold": "Forbindelse", "id": 320, "miss_is_training_word": true, "output": "Forældrene", "set": "word_completion"}
+{"correct": false, "gold": "fremmest", "id": 321, "miss_is_training_word": true, "output": "frem", "set": "word_completion"}
+{"correct": false, "gold": "Tegninger", "id": 322, "miss_is_training_word": false, "output": "Tegnene", "set": "word_completion"}
+{"correct": false, "gold": "Førerstilling", "id": 323, "miss_is_training_word": true, "output": "Første", "set": "word_completion"}
+{"correct": false, "gold": "Nutidens", "id": 324, "miss_is_training_word": false, "output": "Nuttiden", "set": "word_completion"}
+{"correct": false, "gold": "Fremtidsopgaver", "id": 325, "miss_is_training_word": false, "output": "Freder", "set": "word_completion"}
+{"correct": false, "gold": "Spidsborgerskab", "id": 326, "miss_is_training_word": false, "output": "Spisester", "set": "word_completion"}
+{"correct": false, "gold": "Hundredaar", "id": 327, "miss_is_training_word": false, "output": "Hunder", "set": "word_completion"}
+{"correct": false, "gold": "Nationen", "id": 328, "miss_is_training_word": true, "output": "Nattens", "set": "word_completion"}
+{"correct": false, "gold": "resolut", "id": 329, "miss_is_training_word": false, "output": "resom", "set": "word_completion"}
+{"correct": false, "gold": "livfuldt", "id": 330, "miss_is_training_word": true, "output": "livligt", "set": "word_completion"}
+{"correct": true, "gold": "tumlede", "id": 331, "miss_is_training_word": false, "output": "tumlede", "set": "word_completion"}
+{"correct": false, "gold": "menneskemylrende", "id": 332, "miss_is_training_word": true, "output": "men", "set": "word_completion"}
+{"correct": false, "gold": "Kirkeklokker", "id": 333, "miss_is_training_word": true, "output": "Kirkegang", "set": "word_completion"}
+{"correct": false, "gold": "Mørket", "id": 334, "miss_is_training_word": false, "output": "Mørken", "set": "word_completion"}
+{"correct": false, "gold": "parfymeret", "id": 335, "miss_is_training_word": false, "output": "partiste", "set": "word_completion"}
+{"correct": true, "gold": "spurgte", "id": 336, "miss_is_training_word": false, "output": "spurgte", "set": "word_completion"}
+{"correct": false, "gold": "forholdsvis", "id": 337, "miss_is_training_word": false, "output": "forstore", "set": "word_completion"}
+{"correct": false, "gold": "betraadte", "id": 338, "miss_is_training_word": true, "output": "betragte", "set": "word_completion"}
+{"correct": true, "gold": "sidste", "id": 339, "miss_is_training_word": false, "output": "sidste", "set": "word_completion"}
+{"correct": false, "gold": "Samtale", "id": 340, "miss_is_training_word": true, "output": "Samtaler", "set": "word_completion"}
+{"correct": true, "gold": "sidste", "id": 341, "miss_is_training_word": false, "output": "sidste", "set": "word_completion"}
+{"correct": false, "gold": "stakkels", "id": 342, "miss_is_training_word": true, "output": "staar", "set": "word_completion"}
+{"correct": true, "gold": "Frøken", "id": 343, "miss_is_training_word": false, "output": "Frøken", "set": "word_completion"}
+{"correct": false, "gold": "Bifald", "id": 344, "miss_is_training_word": false, "output": "Bifordr", "set": "word_completion"}
+{"correct": true, "gold": "sidste", "id": 345, "miss_is_training_word": false, "output": "sidste", "set": "word_completion"}
+{"correct": true, "gold": "bøjede", "id": 346, "miss_is_training_word": false, "output": "bøjede", "set": "word_completion"}
+{"correct": true, "gold": "Bænken", "id": 347, "miss_is_training_word": false, "output": "Bænken", "set": "word_completion"}
+{"correct": true, "gold": "kommen", "id": 348, "miss_is_training_word": false, "output": "kommen", "set": "word_completion"}
+{"correct": false, "gold": "indenfor", "id": 349, "miss_is_training_word": true, "output": "ind", "set": "word_completion"}
+{"correct": true, "gold": "Kinder", "id": 350, "miss_is_training_word": false, "output": "Kinder", "set": "word_completion"}
+{"correct": true, "gold": "brændte", "id": 351, "miss_is_training_word": false, "output": "brændte", "set": "word_completion"}
+{"correct": false, "gold": "Knæene", "id": 352, "miss_is_training_word": true, "output": "Knæ", "set": "word_completion"}
+{"correct": false, "gold": "overgaa", "id": 353, "miss_is_training_word": true, "output": "over", "set": "word_completion"}
+{"correct": false, "gold": "Lænestol", "id": 354, "miss_is_training_word": true, "output": "Længer", "set": "word_completion"}
+{"correct": false, "gold": "Kærlighedshaab", "id": 355, "miss_is_training_word": true, "output": "Kærlighed", "set": "word_completion"}
+{"correct": false, "gold": "lokkende", "id": 356, "miss_is_training_word": false, "output": "lokkede", "set": "word_completion"}
+{"correct": true, "gold": "sidste", "id": 357, "miss_is_training_word": false, "output": "sidste", "set": "word_completion"}
+{"correct": false, "gold": "omklædt", "id": 358, "miss_is_training_word": true, "output": "omkring", "set": "word_completion"}
+{"correct": false, "gold": "Rosalie", "id": 359, "miss_is_training_word": true, "output": "Roser", "set": "word_completion"}
+{"correct": true, "gold": "Dronning", "id": 360, "miss_is_training_word": false, "output": "Dronning", "set": "word_completion"}
+{"correct": false, "gold": "Faders", "id": 361, "miss_is_training_word": true, "output": "Fader", "set": "word_completion"}
+{"correct": true, "gold": "rigtig", "id": 362, "miss_is_training_word": false, "output": "rigtig", "set": "word_completion"}
+{"correct": true, "gold": "kommen", "id": 363, "miss_is_training_word": false, "output": "kommen", "set": "word_completion"}
+{"correct": false, "gold": "pinligt", "id": 364, "miss_is_training_word": false, "output": "pin", "set": "word_completion"}
+{"correct": false, "gold": "saadan", "id": 365, "miss_is_training_word": true, "output": "saa", "set": "word_completion"}
+{"correct": false, "gold": "muligt", "id": 366, "miss_is_training_word": true, "output": "mulig", "set": "word_completion"}
+{"correct": false, "gold": "akkurat", "id": 367, "miss_is_training_word": false, "output": "akke", "set": "word_completion"}
+{"correct": true, "gold": "gjorde", "id": 368, "miss_is_training_word": false, "output": "gjorde", "set": "word_completion"}
+{"correct": false, "gold": "Forhaand", "id": 369, "miss_is_training_word": false, "output": "Forstande", "set": "word_completion"}
+{"correct": false, "gold": "Paavirkning", "id": 370, "miss_is_training_word": true, "output": "Paa", "set": "word_completion"}
+{"correct": true, "gold": "Jakobe", "id": 371, "miss_is_training_word": false, "output": "Jakobe", "set": "word_completion"}
+{"correct": false, "gold": "derind", "id": 372, "miss_is_training_word": true, "output": "der", "set": "word_completion"}
+{"correct": false, "gold": "Ansigtsudtryk", "id": 373, "miss_is_training_word": true, "output": "Ansigt", "set": "word_completion"}
+{"correct": false, "gold": "Gaardsplads", "id": 374, "miss_is_training_word": true, "output": "Gaarden", "set": "word_completion"}
+{"correct": false, "gold": "knappet", "id": 375, "miss_is_training_word": true, "output": "knap", "set": "word_completion"}
+{"correct": false, "gold": "omhyggelig", "id": 376, "miss_is_training_word": false, "output": "omhende", "set": "word_completion"}
+{"correct": false, "gold": "Arbejde", "id": 377, "miss_is_training_word": false, "output": "Arbejdsb", "set": "word_completion"}
+{"correct": false, "gold": "derefter", "id": 378, "miss_is_training_word": true, "output": "der", "set": "word_completion"}
+{"correct": false, "gold": "Blikket", "id": 379, "miss_is_training_word": true, "output": "Blik", "set": "word_completion"}
+{"correct": true, "gold": "hendes", "id": 380, "miss_is_training_word": false, "output": "hendes", "set": "word_completion"}
+{"correct": false, "gold": "Stemme", "id": 381, "miss_is_training_word": true, "output": "Stemmer", "set": "word_completion"}
+{"correct": false, "gold": "Hjertet", "id": 382, "miss_is_training_word": true, "output": "Hjemmet", "set": "word_completion"}
+{"correct": false, "gold": "Forlovede", "id": 383, "miss_is_training_word": true, "output": "Forstand", "set": "word_completion"}
+{"correct": true, "gold": "øvrige", "id": 384, "miss_is_training_word": false, "output": "øvrige", "set": "word_completion"}
+{"correct": true, "gold": "Familje", "id": 385, "miss_is_training_word": false, "output": "Familje", "set": "word_completion"}
+{"correct": false, "gold": "ligger", "id": 386, "miss_is_training_word": true, "output": "ligesom", "set": "word_completion"}
+{"correct": false, "gold": "støttet", "id": 387, "miss_is_training_word": true, "output": "støttede", "set": "word_completion"}
+{"correct": true, "gold": "Broderen", "id": 388, "miss_is_training_word": false, "output": "Broderen", "set": "word_completion"}
+{"correct": false, "gold": "Grosserer", "id": 389, "miss_is_training_word": false, "output": "Grossen", "set": "word_completion"}
+{"correct": true, "gold": "bleven", "id": 390, "miss_is_training_word": false, "output": "bleven", "set": "word_completion"}
+{"correct": false, "gold": "Fremmede", "id": 391, "miss_is_training_word": false, "output": "Frederen", "set": "word_completion"}
+{"correct": false, "gold": "Skryderi", "id": 392, "miss_is_training_word": true, "output": "Skridt", "set": "word_completion"}
+{"correct": false, "gold": "Skadelyst", "id": 393, "miss_is_training_word": false, "output": "Skaldrene", "set": "word_completion"}
+{"correct": false, "gold": "mindre", "id": 394, "miss_is_training_word": true, "output": "min", "set": "word_completion"}
+{"correct": false, "gold": "Eberhard", "id": 395, "miss_is_training_word": false, "output": "Ebersten", "set": "word_completion"}
+{"correct": true, "gold": "erkende", "id": 396, "miss_is_training_word": false, "output": "erkende", "set": "word_completion"}
+{"correct": true, "gold": "Hjemmet", "id": 397, "miss_is_training_word": false, "output": "Hjemmet", "set": "word_completion"}
+{"correct": false, "gold": "opæggede", "id": 398, "miss_is_training_word": false, "output": "opære", "set": "word_completion"}
+{"correct": false, "gold": "afvisende", "id": 399, "miss_is_training_word": false, "output": "afvindende", "set": "word_completion"}
+{"correct": true, "id": 0, "logprob_bad": -110.7211, "logprob_good": -100.6153, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 1, "logprob_bad": -217.3418, "logprob_good": -217.5509, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 2, "logprob_bad": -68.2886, "logprob_good": -62.2909, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 3, "logprob_bad": -70.8148, "logprob_good": -65.8202, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 4, "logprob_bad": -99.3028, "logprob_good": -94.9663, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 5, "logprob_bad": -159.8433, "logprob_good": -166.7605, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 6, "logprob_bad": -94.4166, "logprob_good": -88.7486, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 7, "logprob_bad": -75.0906, "logprob_good": -57.8179, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 8, "logprob_bad": -173.2172, "logprob_good": -167.1628, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 9, "logprob_bad": -107.6044, "logprob_good": -100.8259, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 10, "logprob_bad": -116.1899, "logprob_good": -108.6671, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 11, "logprob_bad": -143.4744, "logprob_good": -137.8868, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 12, "logprob_bad": -74.247, "logprob_good": -71.5443, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 13, "logprob_bad": -61.2136, "logprob_good": -61.4973, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 14, "logprob_bad": -103.4686, "logprob_good": -97.6583, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 15, "logprob_bad": -67.505, "logprob_good": -64.9911, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 16, "logprob_bad": -100.5525, "logprob_good": -93.4218, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 17, "logprob_bad": -87.8006, "logprob_good": -70.7101, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 18, "logprob_bad": -80.987, "logprob_good": -68.0075, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 19, "logprob_bad": -69.6118, "logprob_good": -67.1693, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 20, "logprob_bad": -66.5627, "logprob_good": -61.9167, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 21, "logprob_bad": -63.8043, "logprob_good": -49.5736, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 22, "logprob_bad": -55.1121, "logprob_good": -50.9196, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 23, "logprob_bad": -78.9033, "logprob_good": -64.5493, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 24, "logprob_bad": -195.1223, "logprob_good": -193.8006, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 25, "logprob_bad": -63.2947, "logprob_good": -57.3891, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 26, "logprob_bad": -82.1547, "logprob_good": -71.0217, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 27, "logprob_bad": -96.5421, "logprob_good": -84.6339, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 28, "logprob_bad": -99.5312, "logprob_good": -98.3371, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 29, "logprob_bad": -104.2724, "logprob_good": -106.3691, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 30, "logprob_bad": -63.9774, "logprob_good": -64.2125, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 31, "logprob_bad": -83.8873, "logprob_good": -73.5388, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 32, "logprob_bad": -104.7386, "logprob_good": -102.618, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 33, "logprob_bad": -105.9326, "logprob_good": -95.6606, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 34, "logprob_bad": -44.3226, "logprob_good": -34.7104, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 35, "logprob_bad": -178.0174, "logprob_good": -162.4229, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 36, "logprob_bad": -118.9508, "logprob_good": -115.4952, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 37, "logprob_bad": -163.0758, "logprob_good": -155.6637, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 38, "logprob_bad": -150.5387, "logprob_good": -141.3635, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 39, "logprob_bad": -50.7043, "logprob_good": -43.3915, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 40, "logprob_bad": -156.7917, "logprob_good": -153.1139, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 41, "logprob_bad": -111.8769, "logprob_good": -112.0008, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 42, "logprob_bad": -71.1069, "logprob_good": -54.6472, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 43, "logprob_bad": -120.2031, "logprob_good": -112.4227, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 44, "logprob_bad": -185.4973, "logprob_good": -172.2304, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 45, "logprob_bad": -126.3705, "logprob_good": -120.7113, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 46, "logprob_bad": -57.1962, "logprob_good": -43.1063, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 47, "logprob_bad": -94.2939, "logprob_good": -90.983, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 48, "logprob_bad": -114.6759, "logprob_good": -110.8169, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 49, "logprob_bad": -58.1762, "logprob_good": -48.0692, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 50, "logprob_bad": -106.2319, "logprob_good": -103.2031, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 51, "logprob_bad": -94.1156, "logprob_good": -79.0144, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 52, "logprob_bad": -52.7493, "logprob_good": -49.6538, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 53, "logprob_bad": -136.7736, "logprob_good": -135.261, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 54, "logprob_bad": -65.1079, "logprob_good": -63.192, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 55, "logprob_bad": -171.7368, "logprob_good": -167.9083, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 56, "logprob_bad": -137.5273, "logprob_good": -133.3776, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 57, "logprob_bad": -43.491, "logprob_good": -42.7896, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 58, "logprob_bad": -65.343, "logprob_good": -58.4332, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 59, "logprob_bad": -108.2045, "logprob_good": -97.0019, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 60, "logprob_bad": -169.5528, "logprob_good": -163.7956, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 61, "logprob_bad": -79.1869, "logprob_good": -69.4874, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 62, "logprob_bad": -213.9128, "logprob_good": -207.5264, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 63, "logprob_bad": -199.6469, "logprob_good": -190.2598, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 64, "logprob_bad": -113.1472, "logprob_good": -112.0278, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 65, "logprob_bad": -86.231, "logprob_good": -76.198, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 66, "logprob_bad": -66.7677, "logprob_good": -61.9986, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 67, "logprob_bad": -120.0672, "logprob_good": -108.3563, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 68, "logprob_bad": -57.5904, "logprob_good": -58.0617, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 69, "logprob_bad": -118.7862, "logprob_good": -119.0491, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 70, "logprob_bad": -80.7856, "logprob_good": -82.7261, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 71, "logprob_bad": -93.0158, "logprob_good": -93.0806, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 72, "logprob_bad": -61.0138, "logprob_good": -58.2279, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 73, "logprob_bad": -94.9378, "logprob_good": -89.8081, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 74, "logprob_bad": -63.5935, "logprob_good": -58.6051, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 75, "logprob_bad": -65.6442, "logprob_good": -61.297, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 76, "logprob_bad": -113.8032, "logprob_good": -111.7467, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 77, "logprob_bad": -73.3941, "logprob_good": -72.6884, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 78, "logprob_bad": -44.0567, "logprob_good": -35.8159, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 79, "logprob_bad": -63.2732, "logprob_good": -63.4997, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 80, "logprob_bad": -206.424, "logprob_good": -206.1862, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 81, "logprob_bad": -68.9855, "logprob_good": -66.969, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 82, "logprob_bad": -103.1822, "logprob_good": -95.7787, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 83, "logprob_bad": -173.0399, "logprob_good": -169.7921, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 84, "logprob_bad": -54.6987, "logprob_good": -42.7175, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 85, "logprob_bad": -159.8295, "logprob_good": -154.1084, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 86, "logprob_bad": -65.0824, "logprob_good": -57.2962, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 87, "logprob_bad": -124.9319, "logprob_good": -118.3667, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 88, "logprob_bad": -108.2789, "logprob_good": -89.6204, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 89, "logprob_bad": -53.843, "logprob_good": -50.0655, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 90, "logprob_bad": -137.0023, "logprob_good": -136.1386, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 91, "logprob_bad": -68.4599, "logprob_good": -62.8314, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 92, "logprob_bad": -94.871, "logprob_good": -87.9879, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 93, "logprob_bad": -71.6512, "logprob_good": -71.5801, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 94, "logprob_bad": -186.8358, "logprob_good": -183.471, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 95, "logprob_bad": -154.1431, "logprob_good": -143.3999, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 96, "logprob_bad": -116.8974, "logprob_good": -110.2886, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 97, "logprob_bad": -71.8138, "logprob_good": -66.8699, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 98, "logprob_bad": -118.1044, "logprob_good": -117.1382, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 99, "logprob_bad": -64.0504, "logprob_good": -63.6394, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 100, "logprob_bad": -62.6667, "logprob_good": -58.0315, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 101, "logprob_bad": -169.9049, "logprob_good": -170.7732, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 102, "logprob_bad": -46.512, "logprob_good": -41.1098, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 103, "logprob_bad": -82.0899, "logprob_good": -74.2656, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 104, "logprob_bad": -255.5991, "logprob_good": -251.0823, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 105, "logprob_bad": -184.6487, "logprob_good": -172.1133, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 106, "logprob_bad": -163.7425, "logprob_good": -154.397, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 107, "logprob_bad": -57.7711, "logprob_good": -49.471, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 108, "logprob_bad": -80.8416, "logprob_good": -73.2098, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 109, "logprob_bad": -52.0574, "logprob_good": -47.9665, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 110, "logprob_bad": -98.1743, "logprob_good": -90.4536, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 111, "logprob_bad": -106.7491, "logprob_good": -104.3142, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 112, "logprob_bad": -100.6335, "logprob_good": -98.9397, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 113, "logprob_bad": -133.8496, "logprob_good": -129.9155, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 114, "logprob_bad": -117.1312, "logprob_good": -115.3944, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 115, "logprob_bad": -92.8888, "logprob_good": -87.2515, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 116, "logprob_bad": -118.9853, "logprob_good": -109.4191, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 117, "logprob_bad": -201.9314, "logprob_good": -201.1021, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 118, "logprob_bad": -167.2697, "logprob_good": -164.8232, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 119, "logprob_bad": -50.6707, "logprob_good": -43.291, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 120, "logprob_bad": -46.9107, "logprob_good": -45.0234, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 121, "logprob_bad": -179.2269, "logprob_good": -166.4674, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 122, "logprob_bad": -112.4345, "logprob_good": -105.814, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 123, "logprob_bad": -107.3168, "logprob_good": -101.0756, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 124, "logprob_bad": -73.6512, "logprob_good": -66.0654, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 125, "logprob_bad": -101.9266, "logprob_good": -100.65, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 126, "logprob_bad": -119.1034, "logprob_good": -117.1216, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 127, "logprob_bad": -82.61, "logprob_good": -76.026, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 128, "logprob_bad": -82.077, "logprob_good": -80.5884, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 129, "logprob_bad": -104.7669, "logprob_good": -103.5056, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 130, "logprob_bad": -76.3942, "logprob_good": -72.5593, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 131, "logprob_bad": -92.9069, "logprob_good": -84.9676, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 132, "logprob_bad": -94.3912, "logprob_good": -81.4462, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 133, "logprob_bad": -196.7888, "logprob_good": -198.5041, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 134, "logprob_bad": -58.2214, "logprob_good": -49.6204, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 135, "logprob_bad": -65.9466, "logprob_good": -60.8836, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 136, "logprob_bad": -143.4422, "logprob_good": -141.1937, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 137, "logprob_bad": -64.4497, "logprob_good": -64.5519, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 138, "logprob_bad": -79.3537, "logprob_good": -70.6438, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 139, "logprob_bad": -105.9547, "logprob_good": -108.8136, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 140, "logprob_bad": -187.2962, "logprob_good": -178.1395, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 141, "logprob_bad": -71.4883, "logprob_good": -67.8738, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 142, "logprob_bad": -67.6913, "logprob_good": -67.8448, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 143, "logprob_bad": -201.9856, "logprob_good": -192.6079, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 144, "logprob_bad": -40.8244, "logprob_good": -43.7079, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 145, "logprob_bad": -70.3351, "logprob_good": -69.4557, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 146, "logprob_bad": -198.554, "logprob_good": -185.5715, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 147, "logprob_bad": -104.849, "logprob_good": -93.4659, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 148, "logprob_bad": -157.2119, "logprob_good": -148.352, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 149, "logprob_bad": -232.4504, "logprob_good": -230.6194, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 150, "logprob_bad": -51.1346, "logprob_good": -46.587, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 151, "logprob_bad": -73.2907, "logprob_good": -61.9213, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 152, "logprob_bad": -84.1403, "logprob_good": -69.2473, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 153, "logprob_bad": -208.2784, "logprob_good": -200.3349, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 154, "logprob_bad": -119.0122, "logprob_good": -103.0388, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 155, "logprob_bad": -87.8558, "logprob_good": -78.0097, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 156, "logprob_bad": -110.0002, "logprob_good": -108.1993, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 157, "logprob_bad": -80.6339, "logprob_good": -70.7549, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 158, "logprob_bad": -68.6397, "logprob_good": -62.484, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 159, "logprob_bad": -162.3375, "logprob_good": -158.9872, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 160, "logprob_bad": -43.5428, "logprob_good": -34.8584, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 161, "logprob_bad": -110.8191, "logprob_good": -105.8195, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 162, "logprob_bad": -73.3328, "logprob_good": -66.6175, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 163, "logprob_bad": -64.4846, "logprob_good": -61.2529, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 164, "logprob_bad": -145.1236, "logprob_good": -141.512, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 165, "logprob_bad": -104.1901, "logprob_good": -101.5467, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 166, "logprob_bad": -175.2441, "logprob_good": -170.6017, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 167, "logprob_bad": -172.8973, "logprob_good": -172.9474, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 168, "logprob_bad": -168.3621, "logprob_good": -159.1952, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 169, "logprob_bad": -113.0385, "logprob_good": -112.3429, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 170, "logprob_bad": -133.4195, "logprob_good": -124.4383, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 171, "logprob_bad": -45.8894, "logprob_good": -35.5207, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 172, "logprob_bad": -80.8438, "logprob_good": -78.527, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 173, "logprob_bad": -69.4138, "logprob_good": -59.5837, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 174, "logprob_bad": -79.4825, "logprob_good": -78.7598, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 175, "logprob_bad": -56.0237, "logprob_good": -41.9717, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 176, "logprob_bad": -87.4529, "logprob_good": -86.9354, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 177, "logprob_bad": -78.4202, "logprob_good": -67.9526, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 178, "logprob_bad": -112.3697, "logprob_good": -116.8011, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 179, "logprob_bad": -59.4081, "logprob_good": -57.8074, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 180, "logprob_bad": -68.3003, "logprob_good": -65.1125, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 181, "logprob_bad": -124.1768, "logprob_good": -109.3289, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 182, "logprob_bad": -133.9503, "logprob_good": -125.5082, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 183, "logprob_bad": -158.887, "logprob_good": -145.2835, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 184, "logprob_bad": -101.3269, "logprob_good": -90.4268, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 185, "logprob_bad": -203.2009, "logprob_good": -199.4193, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 186, "logprob_bad": -135.1925, "logprob_good": -125.5459, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 187, "logprob_bad": -98.8584, "logprob_good": -94.0813, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 188, "logprob_bad": -92.9885, "logprob_good": -68.8724, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 189, "logprob_bad": -118.6322, "logprob_good": -116.8592, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 190, "logprob_bad": -120.2923, "logprob_good": -116.6589, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 191, "logprob_bad": -120.2089, "logprob_good": -110.7867, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 192, "logprob_bad": -64.2656, "logprob_good": -58.984, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 193, "logprob_bad": -152.7, "logprob_good": -146.8884, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 194, "logprob_bad": -202.2209, "logprob_good": -200.3202, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 195, "logprob_bad": -77.3323, "logprob_good": -71.7819, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 196, "logprob_bad": -80.508, "logprob_good": -75.4257, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 197, "logprob_bad": -98.029, "logprob_good": -81.4309, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 198, "logprob_bad": -83.8476, "logprob_good": -86.1794, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 199, "logprob_bad": -114.2194, "logprob_good": -111.3278, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 200, "logprob_bad": -44.2514, "logprob_good": -34.158, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 201, "logprob_bad": -56.6089, "logprob_good": -50.2057, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 202, "logprob_bad": -95.8505, "logprob_good": -93.3595, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 203, "logprob_bad": -203.362, "logprob_good": -200.0106, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 204, "logprob_bad": -212.2862, "logprob_good": -208.7548, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 205, "logprob_bad": -70.0132, "logprob_good": -64.2721, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 206, "logprob_bad": -68.0789, "logprob_good": -55.6577, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 207, "logprob_bad": -72.4039, "logprob_good": -66.4261, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 208, "logprob_bad": -54.5094, "logprob_good": -60.061, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 209, "logprob_bad": -114.6815, "logprob_good": -109.1233, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 210, "logprob_bad": -257.9757, "logprob_good": -253.0773, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 211, "logprob_bad": -108.8875, "logprob_good": -109.3891, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 212, "logprob_bad": -54.8435, "logprob_good": -53.5991, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 213, "logprob_bad": -165.5728, "logprob_good": -159.2331, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 214, "logprob_bad": -97.5501, "logprob_good": -99.2007, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 215, "logprob_bad": -94.1879, "logprob_good": -92.5405, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 216, "logprob_bad": -189.5825, "logprob_good": -180.2355, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 217, "logprob_bad": -76.253, "logprob_good": -72.0494, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 218, "logprob_bad": -83.0735, "logprob_good": -81.4839, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 219, "logprob_bad": -154.2972, "logprob_good": -148.7654, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 220, "logprob_bad": -154.3623, "logprob_good": -138.6326, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 221, "logprob_bad": -78.9726, "logprob_good": -72.993, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 222, "logprob_bad": -136.0904, "logprob_good": -120.8196, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 223, "logprob_bad": -83.1735, "logprob_good": -68.2909, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 224, "logprob_bad": -68.2005, "logprob_good": -69.0768, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 225, "logprob_bad": -65.1044, "logprob_good": -39.7672, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 226, "logprob_bad": -81.9414, "logprob_good": -75.0289, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 227, "logprob_bad": -76.4929, "logprob_good": -70.8142, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 228, "logprob_bad": -152.3401, "logprob_good": -148.0131, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 229, "logprob_bad": -133.5504, "logprob_good": -124.9024, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 230, "logprob_bad": -44.2547, "logprob_good": -29.6503, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 231, "logprob_bad": -62.1137, "logprob_good": -57.5451, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 232, "logprob_bad": -84.2697, "logprob_good": -76.7632, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 233, "logprob_bad": -107.6328, "logprob_good": -110.7173, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 234, "logprob_bad": -103.5016, "logprob_good": -101.6733, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 235, "logprob_bad": -153.6693, "logprob_good": -144.5769, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 236, "logprob_bad": -137.1702, "logprob_good": -129.1718, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 237, "logprob_bad": -75.9101, "logprob_good": -71.247, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 238, "logprob_bad": -53.9275, "logprob_good": -46.9753, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 239, "logprob_bad": -167.4413, "logprob_good": -156.5856, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 240, "logprob_bad": -125.4561, "logprob_good": -120.9443, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 241, "logprob_bad": -128.8562, "logprob_good": -121.4931, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 242, "logprob_bad": -96.3103, "logprob_good": -92.4554, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 243, "logprob_bad": -51.9464, "logprob_good": -47.1754, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 244, "logprob_bad": -66.0264, "logprob_good": -49.3901, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 245, "logprob_bad": -94.128, "logprob_good": -90.7567, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 246, "logprob_bad": -63.3332, "logprob_good": -56.8715, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 247, "logprob_bad": -160.6676, "logprob_good": -158.2556, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 248, "logprob_bad": -97.9855, "logprob_good": -98.1825, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 249, "logprob_bad": -161.1089, "logprob_good": -154.7864, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 250, "logprob_bad": -89.5205, "logprob_good": -86.7164, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 251, "logprob_bad": -101.1342, "logprob_good": -99.7228, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 252, "logprob_bad": -111.8065, "logprob_good": -113.3685, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 253, "logprob_bad": -45.1299, "logprob_good": -43.375, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 254, "logprob_bad": -94.5064, "logprob_good": -91.0944, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 255, "logprob_bad": -135.1321, "logprob_good": -120.5949, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 256, "logprob_bad": -165.1436, "logprob_good": -163.3178, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 257, "logprob_bad": -61.7933, "logprob_good": -47.5105, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 258, "logprob_bad": -155.6789, "logprob_good": -152.135, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 259, "logprob_bad": -92.8887, "logprob_good": -85.1711, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 260, "logprob_bad": -148.5267, "logprob_good": -144.7436, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 261, "logprob_bad": -73.3872, "logprob_good": -66.1218, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 262, "logprob_bad": -77.7999, "logprob_good": -74.3678, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 263, "logprob_bad": -195.1535, "logprob_good": -185.5455, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 264, "logprob_bad": -71.4891, "logprob_good": -67.0961, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 265, "logprob_bad": -75.6756, "logprob_good": -62.768, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 266, "logprob_bad": -83.552, "logprob_good": -76.8114, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 267, "logprob_bad": -131.5497, "logprob_good": -130.1566, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 268, "logprob_bad": -126.567, "logprob_good": -126.6583, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 269, "logprob_bad": -82.3987, "logprob_good": -62.2581, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 270, "logprob_bad": -79.0545, "logprob_good": -83.4971, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 271, "logprob_bad": -96.1414, "logprob_good": -81.7729, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 272, "logprob_bad": -80.5248, "logprob_good": -76.1023, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 273, "logprob_bad": -62.8088, "logprob_good": -46.8898, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 274, "logprob_bad": -168.844, "logprob_good": -157.5858, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 275, "logprob_bad": -232.5949, "logprob_good": -231.517, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 276, "logprob_bad": -134.8941, "logprob_good": -127.8583, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 277, "logprob_bad": -104.9592, "logprob_good": -96.191, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 278, "logprob_bad": -132.5199, "logprob_good": -127.7847, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 279, "logprob_bad": -213.0733, "logprob_good": -213.1692, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 280, "logprob_bad": -166.5976, "logprob_good": -163.492, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 281, "logprob_bad": -190.7465, "logprob_good": -187.1943, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 282, "logprob_bad": -67.6408, "logprob_good": -54.948, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 283, "logprob_bad": -131.6929, "logprob_good": -131.2263, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 284, "logprob_bad": -170.0961, "logprob_good": -171.0325, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 285, "logprob_bad": -179.3726, "logprob_good": -163.3569, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 286, "logprob_bad": -55.957, "logprob_good": -50.9615, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 287, "logprob_bad": -146.2461, "logprob_good": -137.3243, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 288, "logprob_bad": -120.8709, "logprob_good": -125.3183, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 289, "logprob_bad": -86.5817, "logprob_good": -83.5522, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 290, "logprob_bad": -51.6094, "logprob_good": -45.6809, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 291, "logprob_bad": -89.1532, "logprob_good": -84.3377, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 292, "logprob_bad": -93.3995, "logprob_good": -91.1741, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 293, "logprob_bad": -146.6192, "logprob_good": -143.8366, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 294, "logprob_bad": -100.4521, "logprob_good": -95.1437, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 295, "logprob_bad": -142.5399, "logprob_good": -140.5497, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 296, "logprob_bad": -50.2307, "logprob_good": -43.074, "set": "minimal_pairs_word_swap"}
+{"correct": false, "id": 297, "logprob_bad": -164.8994, "logprob_good": -170.1311, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 298, "logprob_bad": -156.7875, "logprob_good": -154.6769, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 299, "logprob_bad": -55.3782, "logprob_good": -48.3101, "set": "minimal_pairs_word_swap"}
+{"correct": true, "id": 0, "logprob_bad": -192.5368, "logprob_good": -169.4815, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 1, "logprob_bad": -65.1371, "logprob_good": -57.3923, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 2, "logprob_bad": -125.9576, "logprob_good": -112.7688, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 3, "logprob_bad": -156.5123, "logprob_good": -143.9369, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 4, "logprob_bad": -142.4138, "logprob_good": -129.7001, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 5, "logprob_bad": -86.1074, "logprob_good": -62.768, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 6, "logprob_bad": -93.7831, "logprob_good": -73.5388, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 7, "logprob_bad": -105.7779, "logprob_good": -84.3377, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 8, "logprob_bad": -147.3015, "logprob_good": -131.2263, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 9, "logprob_bad": -74.6225, "logprob_good": -58.8522, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 10, "logprob_bad": -106.6211, "logprob_good": -92.5405, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 11, "logprob_bad": -178.5593, "logprob_good": -158.2517, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 12, "logprob_bad": -134.7505, "logprob_good": -115.6476, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 13, "logprob_bad": -72.6814, "logprob_good": -62.4129, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 14, "logprob_bad": -267.6526, "logprob_good": -257.0414, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 15, "logprob_bad": -170.1741, "logprob_good": -154.6851, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 16, "logprob_bad": -143.5928, "logprob_good": -124.5362, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 17, "logprob_bad": -181.0653, "logprob_good": -167.1628, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 18, "logprob_bad": -208.0547, "logprob_good": -200.3349, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 19, "logprob_bad": -186.9664, "logprob_good": -169.7921, "set": "minimal_pairs_char_swap"}
+{"correct": false, "id": 20, "logprob_bad": -197.8195, "logprob_good": -198.0705, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 21, "logprob_bad": -57.9207, "logprob_good": -49.471, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 22, "logprob_bad": -181.9808, "logprob_good": -172.2304, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 23, "logprob_bad": -282.1803, "logprob_good": -263.0401, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 24, "logprob_bad": -90.9385, "logprob_good": -69.5357, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 25, "logprob_bad": -103.4084, "logprob_good": -87.6318, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 26, "logprob_bad": -91.8122, "logprob_good": -76.7092, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 27, "logprob_bad": -93.2992, "logprob_good": -78.0097, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 28, "logprob_bad": -110.7826, "logprob_good": -93.0806, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 29, "logprob_bad": -104.0474, "logprob_good": -83.5207, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 30, "logprob_bad": -243.1572, "logprob_good": -230.6194, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 31, "logprob_bad": -176.6245, "logprob_good": -170.6017, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 32, "logprob_bad": -166.608, "logprob_good": -148.4245, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 33, "logprob_bad": -136.3642, "logprob_good": -115.399, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 34, "logprob_bad": -90.0645, "logprob_good": -58.0617, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 35, "logprob_bad": -122.3179, "logprob_good": -102.7006, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 36, "logprob_bad": -102.2833, "logprob_good": -73.2839, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 37, "logprob_bad": -283.8528, "logprob_good": -263.5565, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 38, "logprob_bad": -82.3446, "logprob_good": -67.1693, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 39, "logprob_bad": -120.9152, "logprob_good": -112.0008, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 40, "logprob_bad": -92.5178, "logprob_good": -76.8085, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 41, "logprob_bad": -96.4951, "logprob_good": -81.9009, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 42, "logprob_bad": -67.8717, "logprob_good": -58.7313, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 43, "logprob_bad": -188.4399, "logprob_good": -162.6211, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 44, "logprob_bad": -89.401, "logprob_good": -71.0217, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 45, "logprob_bad": -81.5535, "logprob_good": -74.187, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 46, "logprob_bad": -70.0584, "logprob_good": -56.3049, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 47, "logprob_bad": -178.9513, "logprob_good": -163.3569, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 48, "logprob_bad": -103.6061, "logprob_good": -81.4462, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 49, "logprob_bad": -58.6407, "logprob_good": -45.8696, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 50, "logprob_bad": -120.9471, "logprob_good": -101.3477, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 51, "logprob_bad": -136.2579, "logprob_good": -110.7173, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 52, "logprob_bad": -128.0446, "logprob_good": -108.8136, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 53, "logprob_bad": -110.909, "logprob_good": -83.7411, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 54, "logprob_bad": -83.5289, "logprob_good": -64.9221, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 55, "logprob_bad": -219.7359, "logprob_good": -212.1892, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 56, "logprob_bad": -120.9554, "logprob_good": -109.1233, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 57, "logprob_bad": -59.5683, "logprob_good": -43.783, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 58, "logprob_bad": -53.1129, "logprob_good": -35.8637, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 59, "logprob_bad": -92.918, "logprob_good": -72.899, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 60, "logprob_bad": -66.4081, "logprob_good": -53.8651, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 61, "logprob_bad": -90.1137, "logprob_good": -89.8114, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 62, "logprob_bad": -256.5391, "logprob_good": -238.2976, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 63, "logprob_bad": -87.0742, "logprob_good": -65.4628, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 64, "logprob_bad": -139.4299, "logprob_good": -119.1743, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 65, "logprob_bad": -115.0142, "logprob_good": -96.4656, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 66, "logprob_bad": -238.2438, "logprob_good": -217.5509, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 67, "logprob_bad": -226.3051, "logprob_good": -216.2099, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 68, "logprob_bad": -117.8237, "logprob_good": -105.7048, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 69, "logprob_bad": -115.5132, "logprob_good": -103.5056, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 70, "logprob_bad": -190.2311, "logprob_good": -167.7324, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 71, "logprob_bad": -113.6096, "logprob_good": -95.6606, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 72, "logprob_bad": -198.2701, "logprob_good": -186.7316, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 73, "logprob_bad": -76.102, "logprob_good": -65.3897, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 74, "logprob_bad": -137.5688, "logprob_good": -118.3073, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 75, "logprob_bad": -75.8006, "logprob_good": -53.4773, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 76, "logprob_bad": -74.2709, "logprob_good": -55.6577, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 77, "logprob_bad": -112.6142, "logprob_good": -97.735, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 78, "logprob_bad": -185.5634, "logprob_good": -171.0816, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 79, "logprob_bad": -114.6788, "logprob_good": -98.6849, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 80, "logprob_bad": -175.5534, "logprob_good": -159.2331, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 81, "logprob_bad": -142.6037, "logprob_good": -130.1566, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 82, "logprob_bad": -133.6607, "logprob_good": -123.3289, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 83, "logprob_bad": -117.927, "logprob_good": -111.0462, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 84, "logprob_bad": -79.8432, "logprob_good": -69.2473, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 85, "logprob_bad": -84.9426, "logprob_good": -74.148, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 86, "logprob_bad": -99.0947, "logprob_good": -81.9508, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 87, "logprob_bad": -99.6657, "logprob_good": -80.5801, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 88, "logprob_bad": -210.8222, "logprob_good": -193.8006, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 89, "logprob_bad": -162.6429, "logprob_good": -143.3124, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 90, "logprob_bad": -102.3119, "logprob_good": -90.3234, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 91, "logprob_bad": -158.7331, "logprob_good": -145.1308, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 92, "logprob_bad": -142.1514, "logprob_good": -124.2022, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 93, "logprob_bad": -75.0897, "logprob_good": -62.5013, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 94, "logprob_bad": -131.2702, "logprob_good": -110.2886, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 95, "logprob_bad": -236.1451, "logprob_good": -226.6827, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 96, "logprob_bad": -103.0927, "logprob_good": -93.0269, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 97, "logprob_bad": -197.2538, "logprob_good": -188.9011, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 98, "logprob_bad": -92.4292, "logprob_good": -89.6204, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 99, "logprob_bad": -96.3482, "logprob_good": -78.7861, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 100, "logprob_bad": -53.5994, "logprob_good": -42.4827, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 101, "logprob_bad": -141.2297, "logprob_good": -124.8021, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 102, "logprob_bad": -173.359, "logprob_good": -163.729, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 103, "logprob_bad": -80.1998, "logprob_good": -72.993, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 104, "logprob_bad": -58.5346, "logprob_good": -40.1145, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 105, "logprob_bad": -67.0208, "logprob_good": -49.6204, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 106, "logprob_bad": -111.317, "logprob_good": -91.5277, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 107, "logprob_bad": -171.6246, "logprob_good": -149.0494, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 108, "logprob_bad": -208.5986, "logprob_good": -199.4193, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 109, "logprob_bad": -92.5725, "logprob_good": -81.4995, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 110, "logprob_bad": -80.3847, "logprob_good": -79.2689, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 111, "logprob_bad": -136.6578, "logprob_good": -115.4224, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 112, "logprob_bad": -67.7625, "logprob_good": -53.523, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 113, "logprob_bad": -131.8496, "logprob_good": -127.8531, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 114, "logprob_bad": -200.7001, "logprob_good": -189.8581, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 115, "logprob_bad": -105.7922, "logprob_good": -99.7228, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 116, "logprob_bad": -51.2746, "logprob_good": -39.7672, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 117, "logprob_bad": -96.8261, "logprob_good": -74.5999, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 118, "logprob_bad": -80.4036, "logprob_good": -75.4831, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 119, "logprob_bad": -160.185, "logprob_good": -142.8747, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 120, "logprob_bad": -58.1953, "logprob_good": -38.8746, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 121, "logprob_bad": -83.1815, "logprob_good": -64.2721, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 122, "logprob_bad": -58.544, "logprob_good": -40.4915, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 123, "logprob_bad": -107.5053, "logprob_good": -89.8817, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 124, "logprob_bad": -133.3693, "logprob_good": -127.8583, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 125, "logprob_bad": -82.7369, "logprob_good": -72.5593, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 126, "logprob_bad": -76.8928, "logprob_good": -55.417, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 127, "logprob_bad": -178.2588, "logprob_good": -172.9474, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 128, "logprob_bad": -97.8304, "logprob_good": -83.9142, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 129, "logprob_bad": -168.3096, "logprob_good": -160.5942, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 130, "logprob_bad": -179.3814, "logprob_good": -166.085, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 131, "logprob_bad": -110.0523, "logprob_good": -89.7726, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 132, "logprob_bad": -79.6642, "logprob_good": -64.5519, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 133, "logprob_bad": -203.1452, "logprob_good": -192.6079, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 134, "logprob_bad": -189.3284, "logprob_good": -167.9083, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 135, "logprob_bad": -106.5772, "logprob_good": -83.5522, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 136, "logprob_bad": -164.8348, "logprob_good": -154.1084, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 137, "logprob_bad": -186.4255, "logprob_good": -167.2687, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 138, "logprob_bad": -141.6894, "logprob_good": -120.4522, "set": "minimal_pairs_char_swap"}
+{"correct": false, "id": 139, "logprob_bad": -180.4462, "logprob_good": -180.7551, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 140, "logprob_bad": -103.2365, "logprob_good": -90.2438, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 141, "logprob_bad": -59.5604, "logprob_good": -50.2057, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 142, "logprob_bad": -131.9693, "logprob_good": -122.2147, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 143, "logprob_bad": -115.4179, "logprob_good": -100.6153, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 144, "logprob_bad": -76.5594, "logprob_good": -58.984, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 145, "logprob_bad": -152.4786, "logprob_good": -139.1824, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 146, "logprob_bad": -80.0998, "logprob_good": -57.9004, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 147, "logprob_bad": -69.4148, "logprob_good": -43.291, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 148, "logprob_bad": -271.8768, "logprob_good": -253.0773, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 149, "logprob_bad": -65.7633, "logprob_good": -48.0692, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 150, "logprob_bad": -86.1018, "logprob_good": -73.8257, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 151, "logprob_bad": -157.7414, "logprob_good": -148.0131, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 152, "logprob_bad": -92.0993, "logprob_good": -81.5434, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 153, "logprob_bad": -68.8249, "logprob_good": -49.4405, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 154, "logprob_bad": -123.6882, "logprob_good": -117.331, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 155, "logprob_bad": -67.8103, "logprob_good": -49.3901, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 156, "logprob_bad": -86.9269, "logprob_good": -70.299, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 157, "logprob_bad": -127.3274, "logprob_good": -105.9011, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 158, "logprob_bad": -192.0427, "logprob_good": -177.106, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 159, "logprob_bad": -152.6627, "logprob_good": -137.8868, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 160, "logprob_bad": -75.2147, "logprob_good": -62.8314, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 161, "logprob_bad": -153.929, "logprob_good": -132.9213, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 162, "logprob_bad": -161.2706, "logprob_good": -149.7103, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 163, "logprob_bad": -161.865, "logprob_good": -159.1952, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 164, "logprob_bad": -127.0774, "logprob_good": -112.7663, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 165, "logprob_bad": -65.0493, "logprob_good": -54.9085, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 166, "logprob_bad": -102.511, "logprob_good": -93.8606, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 167, "logprob_bad": -197.378, "logprob_good": -190.2598, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 168, "logprob_bad": -147.2753, "logprob_good": -123.821, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 169, "logprob_bad": -109.8811, "logprob_good": -90.209, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 170, "logprob_bad": -71.741, "logprob_good": -57.8179, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 171, "logprob_bad": -78.0933, "logprob_good": -61.9986, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 172, "logprob_bad": -134.0703, "logprob_good": -133.3776, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 173, "logprob_bad": -152.8417, "logprob_good": -138.456, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 174, "logprob_bad": -51.0668, "logprob_good": -42.7175, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 175, "logprob_bad": -184.2311, "logprob_good": -182.4883, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 176, "logprob_bad": -100.0585, "logprob_good": -89.5264, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 177, "logprob_bad": -210.8042, "logprob_good": -203.3117, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 178, "logprob_bad": -62.0114, "logprob_good": -49.4939, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 179, "logprob_bad": -140.2813, "logprob_good": -119.0491, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 180, "logprob_bad": -151.6109, "logprob_good": -126.6775, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 181, "logprob_bad": -132.7345, "logprob_good": -124.4806, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 182, "logprob_bad": -154.6633, "logprob_good": -136.737, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 183, "logprob_bad": -106.4387, "logprob_good": -101.6733, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 184, "logprob_bad": -127.6434, "logprob_good": -118.3667, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 185, "logprob_bad": -268.524, "logprob_good": -256.9062, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 186, "logprob_bad": -120.3452, "logprob_good": -100.65, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 187, "logprob_bad": -118.1393, "logprob_good": -100.9147, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 188, "logprob_bad": -132.1667, "logprob_good": -114.677, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 189, "logprob_bad": -112.5743, "logprob_good": -96.1838, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 190, "logprob_bad": -72.2892, "logprob_good": -53.1163, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 191, "logprob_bad": -110.792, "logprob_good": -93.3595, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 192, "logprob_bad": -214.9166, "logprob_good": -201.1021, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 193, "logprob_bad": -85.1613, "logprob_good": -72.0494, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 194, "logprob_bad": -141.75, "logprob_good": -127.7847, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 195, "logprob_bad": -130.7535, "logprob_good": -110.0317, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 196, "logprob_bad": -54.7073, "logprob_good": -40.0864, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 197, "logprob_bad": -103.0164, "logprob_good": -90.1337, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 198, "logprob_bad": -115.3192, "logprob_good": -97.6583, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 199, "logprob_bad": -62.8829, "logprob_good": -45.0234, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 200, "logprob_bad": -232.1107, "logprob_good": -215.8311, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 201, "logprob_bad": -90.6596, "logprob_good": -73.5194, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 202, "logprob_bad": -142.2119, "logprob_good": -116.8098, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 203, "logprob_bad": -62.5012, "logprob_good": -50.2392, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 204, "logprob_bad": -135.7675, "logprob_good": -112.3429, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 205, "logprob_bad": -52.5186, "logprob_good": -33.8291, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 206, "logprob_bad": -97.7041, "logprob_good": -81.4309, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 207, "logprob_bad": -148.472, "logprob_good": -129.2107, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 208, "logprob_bad": -128.9891, "logprob_good": -112.0278, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 209, "logprob_bad": -175.9537, "logprob_good": -166.7025, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 210, "logprob_bad": -81.5408, "logprob_good": -62.484, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 211, "logprob_bad": -106.6171, "logprob_good": -90.2793, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 212, "logprob_bad": -84.7878, "logprob_good": -76.3068, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 213, "logprob_bad": -100.0286, "logprob_good": -90.4268, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 214, "logprob_bad": -74.7847, "logprob_good": -56.7599, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 215, "logprob_bad": -151.8912, "logprob_good": -132.5653, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 216, "logprob_bad": -55.3731, "logprob_good": -31.3519, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 217, "logprob_bad": -85.9899, "logprob_good": -72.5197, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 218, "logprob_bad": -68.8772, "logprob_good": -57.1594, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 219, "logprob_bad": -148.3233, "logprob_good": -131.7351, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 220, "logprob_bad": -182.4856, "logprob_good": -163.7956, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 221, "logprob_bad": -86.5498, "logprob_good": -69.4874, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 222, "logprob_bad": -97.9502, "logprob_good": -82.9271, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 223, "logprob_bad": -115.9749, "logprob_good": -96.191, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 224, "logprob_bad": -181.8835, "logprob_good": -166.7605, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 225, "logprob_bad": -132.79, "logprob_good": -119.9597, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 226, "logprob_bad": -83.3004, "logprob_good": -64.4592, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 227, "logprob_bad": -143.8899, "logprob_good": -129.6776, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 228, "logprob_bad": -154.7378, "logprob_good": -147.4046, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 229, "logprob_bad": -142.9224, "logprob_good": -119.2189, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 230, "logprob_bad": -142.9939, "logprob_good": -127.422, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 231, "logprob_bad": -177.4868, "logprob_good": -162.3078, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 232, "logprob_bad": -81.986, "logprob_good": -67.1079, "set": "minimal_pairs_char_swap"}
+{"correct": false, "id": 233, "logprob_bad": -303.0789, "logprob_good": -306.412, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 234, "logprob_bad": -85.2779, "logprob_good": -59.5837, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 235, "logprob_bad": -170.4779, "logprob_good": -160.1538, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 236, "logprob_bad": -142.6213, "logprob_good": -126.3792, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 237, "logprob_bad": -96.0394, "logprob_good": -83.1307, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 238, "logprob_bad": -178.2185, "logprob_good": -163.492, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 239, "logprob_bad": -63.4486, "logprob_good": -56.452, "set": "minimal_pairs_char_swap"}
+{"correct": false, "id": 240, "logprob_bad": -90.5783, "logprob_good": -91.0068, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 241, "logprob_bad": -222.6944, "logprob_good": -200.0106, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 242, "logprob_bad": -82.5857, "logprob_good": -82.0565, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 243, "logprob_bad": -113.1761, "logprob_good": -98.1968, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 244, "logprob_bad": -93.9178, "logprob_good": -75.3998, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 245, "logprob_bad": -178.0475, "logprob_good": -174.7699, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 246, "logprob_bad": -65.3199, "logprob_good": -42.3315, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 247, "logprob_bad": -168.0396, "logprob_good": -147.8586, "set": "minimal_pairs_char_swap"}
+{"correct": false, "id": 248, "logprob_bad": -88.4842, "logprob_good": -92.5032, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 249, "logprob_bad": -96.8872, "logprob_good": -78.5758, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 250, "logprob_bad": -71.4739, "logprob_good": -50.0747, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 251, "logprob_bad": -63.9321, "logprob_good": -46.5609, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 252, "logprob_bad": -111.1245, "logprob_good": -96.8473, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 253, "logprob_bad": -107.4631, "logprob_good": -94.7729, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 254, "logprob_bad": -101.1732, "logprob_good": -93.4218, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 255, "logprob_bad": -75.3054, "logprob_good": -57.7852, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 256, "logprob_bad": -124.0627, "logprob_good": -107.9282, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 257, "logprob_bad": -84.6437, "logprob_good": -71.6247, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 258, "logprob_bad": -158.1534, "logprob_good": -148.7654, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 259, "logprob_bad": -155.0924, "logprob_good": -143.8366, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 260, "logprob_bad": -72.5142, "logprob_good": -48.7504, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 261, "logprob_bad": -78.8082, "logprob_good": -65.0316, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 262, "logprob_bad": -75.0156, "logprob_good": -71.247, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 263, "logprob_bad": -78.0587, "logprob_good": -66.969, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 264, "logprob_bad": -59.7272, "logprob_good": -54.948, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 265, "logprob_bad": -207.3684, "logprob_good": -185.5715, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 266, "logprob_bad": -194.6943, "logprob_good": -175.8106, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 267, "logprob_bad": -85.3751, "logprob_good": -68.5747, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 268, "logprob_bad": -71.3382, "logprob_good": -61.4973, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 269, "logprob_bad": -65.3502, "logprob_good": -49.3057, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 270, "logprob_bad": -57.8979, "logprob_good": -39.5123, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 271, "logprob_bad": -94.7771, "logprob_good": -83.4478, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 272, "logprob_bad": -255.2924, "logprob_good": -231.517, "set": "minimal_pairs_char_swap"}
+{"correct": false, "id": 273, "logprob_bad": -132.5332, "logprob_good": -134.7606, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 274, "logprob_bad": -111.1997, "logprob_good": -88.7486, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 275, "logprob_bad": -128.4503, "logprob_good": -114.5003, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 276, "logprob_bad": -225.9871, "logprob_good": -220.7625, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 277, "logprob_bad": -158.547, "logprob_good": -154.6769, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 278, "logprob_bad": -152.0363, "logprob_good": -136.1386, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 279, "logprob_bad": -100.8265, "logprob_good": -81.2281, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 280, "logprob_bad": -130.4885, "logprob_good": -108.9568, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 281, "logprob_bad": -109.214, "logprob_good": -87.2515, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 282, "logprob_bad": -204.302, "logprob_good": -187.1943, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 283, "logprob_bad": -83.9127, "logprob_good": -71.7027, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 284, "logprob_bad": -67.9792, "logprob_good": -61.2925, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 285, "logprob_bad": -87.3402, "logprob_good": -72.0047, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 286, "logprob_bad": -101.2602, "logprob_good": -83.1706, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 287, "logprob_bad": -93.4072, "logprob_good": -81.4839, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 288, "logprob_bad": -186.1866, "logprob_good": -180.2355, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 289, "logprob_bad": -113.7897, "logprob_good": -95.6464, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 290, "logprob_bad": -103.7076, "logprob_good": -86.6494, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 291, "logprob_bad": -73.3392, "logprob_good": -61.297, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 292, "logprob_bad": -215.7838, "logprob_good": -200.3202, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 293, "logprob_bad": -110.5307, "logprob_good": -97.6344, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 294, "logprob_bad": -51.1315, "logprob_good": -35.3135, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 295, "logprob_bad": -178.4247, "logprob_good": -156.1393, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 296, "logprob_bad": -173.7811, "logprob_good": -158.9872, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 297, "logprob_bad": -154.3071, "logprob_good": -135.8644, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 298, "logprob_bad": -200.3469, "logprob_good": -188.5437, "set": "minimal_pairs_char_swap"}
+{"correct": true, "id": 299, "logprob_bad": -202.5307, "logprob_good": -183.471, "set": "minimal_pairs_char_swap"}
+{"correct": true, "gold": "tumlet", "id": 0, "output": "telmut", "set": "reversal_in_dist"}
+{"correct": true, "gold": "bekæmpe", "id": 1, "output": "epmækeb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "tegnede", "id": 2, "output": "edenget", "set": "reversal_in_dist"}
+{"correct": false, "gold": "hinanden", "id": 3, "output": "nednaanih", "set": "reversal_in_dist"}
+{"correct": true, "gold": "godt", "id": 4, "output": "tdog", "set": "reversal_in_dist"}
+{"correct": true, "gold": "forasede", "id": 5, "output": "edesarof", "set": "reversal_in_dist"}
+{"correct": true, "gold": "sky", "id": 6, "output": "yks", "set": "reversal_in_dist"}
+{"correct": true, "gold": "lyserøde", "id": 7, "output": "edøresyl", "set": "reversal_in_dist"}
+{"correct": true, "gold": "rettere", "id": 8, "output": "eretter", "set": "reversal_in_dist"}
+{"correct": true, "gold": "klogere", "id": 9, "output": "eregolk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "enig", "id": 10, "output": "gine", "set": "reversal_in_dist"}
+{"correct": true, "gold": "burde", "id": 11, "output": "edrub", "set": "reversal_in_dist"}
+{"correct": false, "gold": "attraaet", "id": 12, "output": "teaartata", "set": "reversal_in_dist"}
+{"correct": true, "gold": "klappet", "id": 13, "output": "teppalk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "føler", "id": 14, "output": "reløf", "set": "reversal_in_dist"}
+{"correct": true, "gold": "ihjel", "id": 15, "output": "lejhi", "set": "reversal_in_dist"}
+{"correct": true, "gold": "idag", "id": 16, "output": "gadi", "set": "reversal_in_dist"}
+{"correct": true, "gold": "lang", "id": 17, "output": "gnal", "set": "reversal_in_dist"}
+{"correct": true, "gold": "dirrede", "id": 18, "output": "ederrid", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kunstlet", "id": 19, "output": "teltsnuk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "derefter", "id": 20, "output": "retfered", "set": "reversal_in_dist"}
+{"correct": true, "gold": "afsted", "id": 21, "output": "detsfa", "set": "reversal_in_dist"}
+{"correct": true, "gold": "for", "id": 22, "output": "rof", "set": "reversal_in_dist"}
+{"correct": true, "gold": "korte", "id": 23, "output": "etrok", "set": "reversal_in_dist"}
+{"correct": true, "gold": "sidst", "id": 24, "output": "tsdis", "set": "reversal_in_dist"}
+{"correct": false, "gold": "sparker", "id": 25, "output": "rekrapræs", "set": "reversal_in_dist"}
+{"correct": true, "gold": "passet", "id": 26, "output": "tessap", "set": "reversal_in_dist"}
+{"correct": true, "gold": "føjede", "id": 27, "output": "edejøf", "set": "reversal_in_dist"}
+{"correct": true, "gold": "brændt", "id": 28, "output": "tdnærb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "hvifor", "id": 29, "output": "rofivh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kære", "id": 30, "output": "eræk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "hvilken", "id": 31, "output": "neklivh", "set": "reversal_in_dist"}
+{"correct": false, "gold": "blot", "id": 32, "output": "toolb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "hvordan", "id": 33, "output": "nadrovh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "indført", "id": 34, "output": "trøfdni", "set": "reversal_in_dist"}
+{"correct": true, "gold": "knap", "id": 35, "output": "pank", "set": "reversal_in_dist"}
+{"correct": true, "gold": "rakt", "id": 36, "output": "tkar", "set": "reversal_in_dist"}
+{"correct": true, "gold": "dirre", "id": 37, "output": "errid", "set": "reversal_in_dist"}
+{"correct": true, "gold": "skaane", "id": 38, "output": "enaaks", "set": "reversal_in_dist"}
+{"correct": true, "gold": "opholdt", "id": 39, "output": "tdlohpo", "set": "reversal_in_dist"}
+{"correct": true, "gold": "vendte", "id": 40, "output": "etdnev", "set": "reversal_in_dist"}
+{"correct": true, "gold": "drømte", "id": 41, "output": "etmørd", "set": "reversal_in_dist"}
+{"correct": true, "gold": "højeste", "id": 42, "output": "etsejøh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "nøgne", "id": 43, "output": "engøn", "set": "reversal_in_dist"}
+{"correct": true, "gold": "mangler", "id": 44, "output": "relgnam", "set": "reversal_in_dist"}
+{"correct": true, "gold": "fejl", "id": 45, "output": "ljef", "set": "reversal_in_dist"}
+{"correct": true, "gold": "dér", "id": 46, "output": "réd", "set": "reversal_in_dist"}
+{"correct": true, "gold": "snapper", "id": 47, "output": "reppans", "set": "reversal_in_dist"}
+{"correct": true, "gold": "berømte", "id": 48, "output": "etmøreb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "nikkede", "id": 49, "output": "edekkin", "set": "reversal_in_dist"}
+{"correct": true, "gold": "hele", "id": 50, "output": "eleh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "udskar", "id": 51, "output": "raksdu", "set": "reversal_in_dist"}
+{"correct": true, "gold": "taus", "id": 52, "output": "suat", "set": "reversal_in_dist"}
+{"correct": true, "gold": "blottede", "id": 53, "output": "edettolb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "budt", "id": 54, "output": "tdub", "set": "reversal_in_dist"}
+{"correct": true, "gold": "egenlige", "id": 55, "output": "egilnege", "set": "reversal_in_dist"}
+{"correct": true, "gold": "drukken", "id": 56, "output": "nekkurd", "set": "reversal_in_dist"}
+{"correct": true, "gold": "skæmmet", "id": 57, "output": "temmæks", "set": "reversal_in_dist"}
+{"correct": true, "gold": "barnlig", "id": 58, "output": "gilnrab", "set": "reversal_in_dist"}
+{"correct": true, "gold": "stivnede", "id": 59, "output": "edenvits", "set": "reversal_in_dist"}
+{"correct": true, "gold": "elendig", "id": 60, "output": "gidnele", "set": "reversal_in_dist"}
+{"correct": false, "gold": "syv", "id": 61, "output": "vyys", "set": "reversal_in_dist"}
+{"correct": true, "gold": "henne", "id": 62, "output": "enneh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kaste", "id": 63, "output": "etsak", "set": "reversal_in_dist"}
+{"correct": true, "gold": "skrive", "id": 64, "output": "evirks", "set": "reversal_in_dist"}
+{"correct": true, "gold": "fyldte", "id": 65, "output": "etdlyf", "set": "reversal_in_dist"}
+{"correct": true, "gold": "hjem", "id": 66, "output": "mejh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "vaagnede", "id": 67, "output": "edengaav", "set": "reversal_in_dist"}
+{"correct": false, "gold": "sluttede", "id": 68, "output": "edettuuls", "set": "reversal_in_dist"}
+{"correct": true, "gold": "besørget", "id": 69, "output": "tegrøseb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "meldte", "id": 70, "output": "etdlem", "set": "reversal_in_dist"}
+{"correct": true, "gold": "grimme", "id": 71, "output": "emmirg", "set": "reversal_in_dist"}
+{"correct": true, "gold": "greb", "id": 72, "output": "berg", "set": "reversal_in_dist"}
+{"correct": true, "gold": "hendes", "id": 73, "output": "sedneh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "igennem", "id": 74, "output": "mennegi", "set": "reversal_in_dist"}
+{"correct": true, "gold": "heldig", "id": 75, "output": "gidleh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "baade", "id": 76, "output": "edaab", "set": "reversal_in_dist"}
+{"correct": true, "gold": "præke", "id": 77, "output": "ekærp", "set": "reversal_in_dist"}
+{"correct": true, "gold": "begynder", "id": 78, "output": "rednygeb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "fedes", "id": 79, "output": "sedef", "set": "reversal_in_dist"}
+{"correct": true, "gold": "større", "id": 80, "output": "errøts", "set": "reversal_in_dist"}
+{"correct": true, "gold": "direkt", "id": 81, "output": "tkerid", "set": "reversal_in_dist"}
+{"correct": true, "gold": "haardere", "id": 82, "output": "eredraah", "set": "reversal_in_dist"}
+{"correct": true, "gold": "lænede", "id": 83, "output": "edenæl", "set": "reversal_in_dist"}
+{"correct": true, "gold": "galede", "id": 84, "output": "edelag", "set": "reversal_in_dist"}
+{"correct": true, "gold": "førte", "id": 85, "output": "etrøf", "set": "reversal_in_dist"}
+{"correct": true, "gold": "klog", "id": 86, "output": "golk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "tyske", "id": 87, "output": "eksyt", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kvæler", "id": 88, "output": "relævk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "vide", "id": 89, "output": "ediv", "set": "reversal_in_dist"}
+{"correct": true, "gold": "lod", "id": 90, "output": "dol", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kælede", "id": 91, "output": "edelæk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "paabudte", "id": 92, "output": "etdubaap", "set": "reversal_in_dist"}
+{"correct": false, "gold": "tvungent", "id": 93, "output": "tnegnuvvt", "set": "reversal_in_dist"}
+{"correct": true, "gold": "spise", "id": 94, "output": "esips", "set": "reversal_in_dist"}
+{"correct": false, "gold": "sysle", "id": 95, "output": "elsyls", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kredsede", "id": 96, "output": "edesderk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "derind", "id": 97, "output": "dnired", "set": "reversal_in_dist"}
+{"correct": true, "gold": "snarere", "id": 98, "output": "ererans", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kan", "id": 99, "output": "nak", "set": "reversal_in_dist"}
+{"correct": true, "gold": "prøve", "id": 100, "output": "evørp", "set": "reversal_in_dist"}
+{"correct": true, "gold": "ligesom", "id": 101, "output": "mosegil", "set": "reversal_in_dist"}
+{"correct": true, "gold": "svære", "id": 102, "output": "erævs", "set": "reversal_in_dist"}
+{"correct": true, "gold": "glat", "id": 103, "output": "talg", "set": "reversal_in_dist"}
+{"correct": true, "gold": "sorte", "id": 104, "output": "etros", "set": "reversal_in_dist"}
+{"correct": true, "gold": "smider", "id": 105, "output": "redims", "set": "reversal_in_dist"}
+{"correct": true, "gold": "stiv", "id": 106, "output": "vits", "set": "reversal_in_dist"}
+{"correct": true, "gold": "maatte", "id": 107, "output": "ettaam", "set": "reversal_in_dist"}
+{"correct": false, "gold": "summende", "id": 108, "output": "ednemmuus", "set": "reversal_in_dist"}
+{"correct": true, "gold": "pikkede", "id": 109, "output": "edekkip", "set": "reversal_in_dist"}
+{"correct": true, "gold": "tydelig", "id": 110, "output": "giledyt", "set": "reversal_in_dist"}
+{"correct": true, "gold": "tomme", "id": 111, "output": "emmot", "set": "reversal_in_dist"}
+{"correct": true, "gold": "taaler", "id": 112, "output": "relaat", "set": "reversal_in_dist"}
+{"correct": true, "gold": "gal", "id": 113, "output": "lag", "set": "reversal_in_dist"}
+{"correct": true, "gold": "bankede", "id": 114, "output": "edeknab", "set": "reversal_in_dist"}
+{"correct": true, "gold": "blaa", "id": 115, "output": "aalb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "maaske", "id": 116, "output": "eksaam", "set": "reversal_in_dist"}
+{"correct": true, "gold": "véd", "id": 117, "output": "dév", "set": "reversal_in_dist"}
+{"correct": true, "gold": "vundet", "id": 118, "output": "tednuv", "set": "reversal_in_dist"}
+{"correct": true, "gold": "hængte", "id": 119, "output": "etgnæh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "hold", "id": 120, "output": "dloh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "egne", "id": 121, "output": "enge", "set": "reversal_in_dist"}
+{"correct": true, "gold": "sker", "id": 122, "output": "reks", "set": "reversal_in_dist"}
+{"correct": true, "gold": "dybeste", "id": 123, "output": "etsebyd", "set": "reversal_in_dist"}
+{"correct": true, "gold": "sød", "id": 124, "output": "døs", "set": "reversal_in_dist"}
+{"correct": true, "gold": "sagtere", "id": 125, "output": "eretgas", "set": "reversal_in_dist"}
+{"correct": true, "gold": "bad", "id": 126, "output": "dab", "set": "reversal_in_dist"}
+{"correct": true, "gold": "mig", "id": 127, "output": "gim", "set": "reversal_in_dist"}
+{"correct": true, "gold": "glatte", "id": 128, "output": "ettalg", "set": "reversal_in_dist"}
+{"correct": true, "gold": "bede", "id": 129, "output": "edeb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "stødt", "id": 130, "output": "tdøts", "set": "reversal_in_dist"}
+{"correct": true, "gold": "lejrede", "id": 131, "output": "ederjel", "set": "reversal_in_dist"}
+{"correct": true, "gold": "skure", "id": 132, "output": "eruks", "set": "reversal_in_dist"}
+{"correct": true, "gold": "forbandt", "id": 133, "output": "tdnabrof", "set": "reversal_in_dist"}
+{"correct": true, "gold": "gammel", "id": 134, "output": "lemmag", "set": "reversal_in_dist"}
+{"correct": false, "gold": "særlig", "id": 135, "output": "gilræræs", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kun", "id": 136, "output": "nuk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "stilnede", "id": 137, "output": "edenlits", "set": "reversal_in_dist"}
+{"correct": true, "gold": "deroppe", "id": 138, "output": "eppored", "set": "reversal_in_dist"}
+{"correct": true, "gold": "spurgte", "id": 139, "output": "etgrups", "set": "reversal_in_dist"}
+{"correct": true, "gold": "udenfor", "id": 140, "output": "rofnedu", "set": "reversal_in_dist"}
+{"correct": true, "gold": "tilbragt", "id": 141, "output": "tgarblit", "set": "reversal_in_dist"}
+{"correct": false, "gold": "toogtyve", "id": 142, "output": "evøtgotot", "set": "reversal_in_dist"}
+{"correct": true, "gold": "meget", "id": 143, "output": "tegem", "set": "reversal_in_dist"}
+{"correct": false, "gold": "flot", "id": 144, "output": "toolf", "set": "reversal_in_dist"}
+{"correct": true, "gold": "viftede", "id": 145, "output": "edetfiv", "set": "reversal_in_dist"}
+{"correct": true, "gold": "gød", "id": 146, "output": "døg", "set": "reversal_in_dist"}
+{"correct": false, "gold": "halvdøde", "id": 147, "output": "edøvdlah", "set": "reversal_in_dist"}
+{"correct": true, "gold": "skinnede", "id": 148, "output": "edenniks", "set": "reversal_in_dist"}
+{"correct": true, "gold": "nøjere", "id": 149, "output": "erejøn", "set": "reversal_in_dist"}
+{"correct": false, "gold": "ser", "id": 150, "output": "reses", "set": "reversal_in_dist"}
+{"correct": true, "gold": "mér", "id": 151, "output": "rém", "set": "reversal_in_dist"}
+{"correct": true, "gold": "henimod", "id": 152, "output": "domineh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "smaa", "id": 153, "output": "aams", "set": "reversal_in_dist"}
+{"correct": false, "gold": "samlede", "id": 154, "output": "edelmaas", "set": "reversal_in_dist"}
+{"correct": true, "gold": "aaben", "id": 155, "output": "nebaa", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kappet", "id": 156, "output": "teppak", "set": "reversal_in_dist"}
+{"correct": true, "gold": "spændte", "id": 157, "output": "etdnæps", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kiggede", "id": 158, "output": "edeggik", "set": "reversal_in_dist"}
+{"correct": false, "gold": "paany", "id": 159, "output": "yynap", "set": "reversal_in_dist"}
+{"correct": true, "gold": "ladede", "id": 160, "output": "ededal", "set": "reversal_in_dist"}
+{"correct": true, "gold": "meddelte", "id": 161, "output": "etleddem", "set": "reversal_in_dist"}
+{"correct": true, "gold": "fikse", "id": 162, "output": "eskif", "set": "reversal_in_dist"}
+{"correct": true, "gold": "spinkel", "id": 163, "output": "leknips", "set": "reversal_in_dist"}
+{"correct": true, "gold": "fange", "id": 164, "output": "egnaf", "set": "reversal_in_dist"}
+{"correct": true, "gold": "græder", "id": 165, "output": "redærg", "set": "reversal_in_dist"}
+{"correct": true, "gold": "saaledes", "id": 166, "output": "sedelaas", "set": "reversal_in_dist"}
+{"correct": true, "gold": "klaprede", "id": 167, "output": "ederpalk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "lever", "id": 168, "output": "revel", "set": "reversal_in_dist"}
+{"correct": true, "gold": "fandt", "id": 169, "output": "tdnaf", "set": "reversal_in_dist"}
+{"correct": true, "gold": "ventede", "id": 170, "output": "edetnev", "set": "reversal_in_dist"}
+{"correct": true, "gold": "stærke", "id": 171, "output": "ekræts", "set": "reversal_in_dist"}
+{"correct": true, "gold": "staar", "id": 172, "output": "raats", "set": "reversal_in_dist"}
+{"correct": true, "gold": "lader", "id": 173, "output": "redal", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kønt", "id": 174, "output": "tnøk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "bragt", "id": 175, "output": "tgarb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "bløde", "id": 176, "output": "edølb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "komme", "id": 177, "output": "emmok", "set": "reversal_in_dist"}
+{"correct": true, "gold": "mistet", "id": 178, "output": "tetsim", "set": "reversal_in_dist"}
+{"correct": true, "gold": "inderlig", "id": 179, "output": "gilredni", "set": "reversal_in_dist"}
+{"correct": true, "gold": "møde", "id": 180, "output": "edøm", "set": "reversal_in_dist"}
+{"correct": true, "gold": "hægede", "id": 181, "output": "edegæh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "mat", "id": 182, "output": "tam", "set": "reversal_in_dist"}
+{"correct": true, "gold": "solvarme", "id": 183, "output": "emravlos", "set": "reversal_in_dist"}
+{"correct": true, "gold": "tungt", "id": 184, "output": "tgnut", "set": "reversal_in_dist"}
+{"correct": false, "gold": "uvillig", "id": 185, "output": "gilliluu", "set": "reversal_in_dist"}
+{"correct": true, "gold": "seks", "id": 186, "output": "skes", "set": "reversal_in_dist"}
+{"correct": true, "gold": "afdække", "id": 187, "output": "ekkædfa", "set": "reversal_in_dist"}
+{"correct": true, "gold": "eget", "id": 188, "output": "tege", "set": "reversal_in_dist"}
+{"correct": false, "gold": "tit", "id": 189, "output": "tiit", "set": "reversal_in_dist"}
+{"correct": true, "gold": "bygge", "id": 190, "output": "eggyb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "derinde", "id": 191, "output": "ednired", "set": "reversal_in_dist"}
+{"correct": true, "gold": "vælte", "id": 192, "output": "etlæv", "set": "reversal_in_dist"}
+{"correct": true, "gold": "gribe", "id": 193, "output": "ebirg", "set": "reversal_in_dist"}
+{"correct": true, "gold": "tusinde", "id": 194, "output": "ednisut", "set": "reversal_in_dist"}
+{"correct": true, "gold": "oprigtig", "id": 195, "output": "gitgirpo", "set": "reversal_in_dist"}
+{"correct": true, "gold": "sætte", "id": 196, "output": "ettæs", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kjøbe", "id": 197, "output": "ebøjk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "bevidste", "id": 198, "output": "etsdiveb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "tydelige", "id": 199, "output": "egiledyt", "set": "reversal_in_dist"}
+{"correct": true, "gold": "hvorom", "id": 200, "output": "morovh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "gjøre", "id": 201, "output": "erøjg", "set": "reversal_in_dist"}
+{"correct": true, "gold": "nej", "id": 202, "output": "jen", "set": "reversal_in_dist"}
+{"correct": true, "gold": "spiste", "id": 203, "output": "etsips", "set": "reversal_in_dist"}
+{"correct": true, "gold": "dreje", "id": 204, "output": "ejerd", "set": "reversal_in_dist"}
+{"correct": true, "gold": "ofte", "id": 205, "output": "etfo", "set": "reversal_in_dist"}
+{"correct": false, "gold": "altid", "id": 206, "output": "ditlaa", "set": "reversal_in_dist"}
+{"correct": true, "gold": "stødte", "id": 207, "output": "etdøts", "set": "reversal_in_dist"}
+{"correct": true, "gold": "komisk", "id": 208, "output": "ksimok", "set": "reversal_in_dist"}
+{"correct": true, "gold": "deres", "id": 209, "output": "sered", "set": "reversal_in_dist"}
+{"correct": true, "gold": "opgav", "id": 210, "output": "vagpo", "set": "reversal_in_dist"}
+{"correct": true, "gold": "under", "id": 211, "output": "rednu", "set": "reversal_in_dist"}
+{"correct": true, "gold": "bagpaa", "id": 212, "output": "aapgab", "set": "reversal_in_dist"}
+{"correct": true, "gold": "mindre", "id": 213, "output": "erdnim", "set": "reversal_in_dist"}
+{"correct": true, "gold": "paa", "id": 214, "output": "aap", "set": "reversal_in_dist"}
+{"correct": true, "gold": "endeligt", "id": 215, "output": "tgiledne", "set": "reversal_in_dist"}
+{"correct": true, "gold": "læst", "id": 216, "output": "tsæl", "set": "reversal_in_dist"}
+{"correct": true, "gold": "nyt", "id": 217, "output": "tyn", "set": "reversal_in_dist"}
+{"correct": true, "gold": "strængt", "id": 218, "output": "tgnærts", "set": "reversal_in_dist"}
+{"correct": true, "gold": "reddet", "id": 219, "output": "tedder", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kører", "id": 220, "output": "rerøk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "indad", "id": 221, "output": "dadni", "set": "reversal_in_dist"}
+{"correct": true, "gold": "visse", "id": 222, "output": "essiv", "set": "reversal_in_dist"}
+{"correct": true, "gold": "spillede", "id": 223, "output": "edellips", "set": "reversal_in_dist"}
+{"correct": false, "gold": "sulten", "id": 224, "output": "netluus", "set": "reversal_in_dist"}
+{"correct": true, "gold": "vakte", "id": 225, "output": "etkav", "set": "reversal_in_dist"}
+{"correct": false, "gold": "mit", "id": 226, "output": "tiim", "set": "reversal_in_dist"}
+{"correct": true, "gold": "vidste", "id": 227, "output": "etsdiv", "set": "reversal_in_dist"}
+{"correct": true, "gold": "hilser", "id": 228, "output": "reslih", "set": "reversal_in_dist"}
+{"correct": true, "gold": "synger", "id": 229, "output": "regnys", "set": "reversal_in_dist"}
+{"correct": false, "gold": "villige", "id": 230, "output": "egillivv", "set": "reversal_in_dist"}
+{"correct": true, "gold": "enkelt", "id": 231, "output": "tlekne", "set": "reversal_in_dist"}
+{"correct": true, "gold": "maa", "id": 232, "output": "aam", "set": "reversal_in_dist"}
+{"correct": true, "gold": "saadant", "id": 233, "output": "tnadaas", "set": "reversal_in_dist"}
+{"correct": true, "gold": "snakkede", "id": 234, "output": "edekkans", "set": "reversal_in_dist"}
+{"correct": true, "gold": "trefags", "id": 235, "output": "sgafert", "set": "reversal_in_dist"}
+{"correct": false, "gold": "uædlere", "id": 236, "output": "ereldædu", "set": "reversal_in_dist"}
+{"correct": true, "gold": "sølle", "id": 237, "output": "elløs", "set": "reversal_in_dist"}
+{"correct": true, "gold": "syvende", "id": 238, "output": "ednevys", "set": "reversal_in_dist"}
+{"correct": true, "gold": "læste", "id": 239, "output": "etsæl", "set": "reversal_in_dist"}
+{"correct": true, "gold": "hede", "id": 240, "output": "edeh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "skaffe", "id": 241, "output": "effaks", "set": "reversal_in_dist"}
+{"correct": true, "gold": "forgæves", "id": 242, "output": "sevægrof", "set": "reversal_in_dist"}
+{"correct": true, "gold": "mageligt", "id": 243, "output": "tgilegam", "set": "reversal_in_dist"}
+{"correct": true, "gold": "delvis", "id": 244, "output": "sivled", "set": "reversal_in_dist"}
+{"correct": true, "gold": "lukker", "id": 245, "output": "rekkul", "set": "reversal_in_dist"}
+{"correct": true, "gold": "ville", "id": 246, "output": "elliv", "set": "reversal_in_dist"}
+{"correct": false, "gold": "hidtil", "id": 247, "output": "litdid", "set": "reversal_in_dist"}
+{"correct": true, "gold": "dansk", "id": 248, "output": "ksnad", "set": "reversal_in_dist"}
+{"correct": true, "gold": "sorgløst", "id": 249, "output": "tsølgros", "set": "reversal_in_dist"}
+{"correct": true, "gold": "snavset", "id": 250, "output": "tesvans", "set": "reversal_in_dist"}
+{"correct": true, "gold": "let", "id": 251, "output": "tel", "set": "reversal_in_dist"}
+{"correct": true, "gold": "ravede", "id": 252, "output": "edevar", "set": "reversal_in_dist"}
+{"correct": true, "gold": "farvet", "id": 253, "output": "tevraf", "set": "reversal_in_dist"}
+{"correct": true, "gold": "fattig", "id": 254, "output": "gittaf", "set": "reversal_in_dist"}
+{"correct": true, "gold": "søgt", "id": 255, "output": "tgøs", "set": "reversal_in_dist"}
+{"correct": true, "gold": "siden", "id": 256, "output": "nedis", "set": "reversal_in_dist"}
+{"correct": true, "gold": "kvold", "id": 257, "output": "dlovk", "set": "reversal_in_dist"}
+{"correct": true, "gold": "roligt", "id": 258, "output": "tgilor", "set": "reversal_in_dist"}
+{"correct": true, "gold": "naar", "id": 259, "output": "raan", "set": "reversal_in_dist"}
+{"correct": true, "gold": "mørke", "id": 260, "output": "ekrøm", "set": "reversal_in_dist"}
+{"correct": true, "gold": "ansaaes", "id": 261, "output": "seaasna", "set": "reversal_in_dist"}
+{"correct": false, "gold": "snurrige", "id": 262, "output": "egirrunas", "set": "reversal_in_dist"}
+{"correct": false, "gold": "dit", "id": 263, "output": "tiid", "set": "reversal_in_dist"}
+{"correct": true, "gold": "jyske", "id": 264, "output": "eksyj", "set": "reversal_in_dist"}
+{"correct": true, "gold": "herved", "id": 265, "output": "devreh", "set": "reversal_in_dist"}
+{"correct": true, "gold": "tændtes", "id": 266, "output": "setdnæt", "set": "reversal_in_dist"}
+{"correct": true, "gold": "dølge", "id": 267, "output": "eglød", "set": "reversal_in_dist"}
+{"correct": true, "gold": "glemte", "id": 268, "output": "etmelg", "set": "reversal_in_dist"}
+{"correct": true, "gold": "dejligt", "id": 269, "output": "tgiljed", "set": "reversal_in_dist"}
+{"correct": true, "gold": "trykkede", "id": 270, "output": "edekkyrt", "set": "reversal_in_dist"}
+{"correct": true, "gold": "naaede", "id": 271, "output": "edeaan", "set": "reversal_in_dist"}
+{"correct": true, "gold": "dernede", "id": 272, "output": "edenred", "set": "reversal_in_dist"}
+{"correct": true, "gold": "skærme", "id": 273, "output": "emræks", "set": "reversal_in_dist"}
+{"correct": true, "gold": "udpræget", "id": 274, "output": "tegærpdu", "set": "reversal_in_dist"}
+{"correct": true, "gold": "smuk", "id": 275, "output": "kums", "set": "reversal_in_dist"}
+{"correct": true, "gold": "derom", "id": 276, "output": "mored", "set": "reversal_in_dist"}
+{"correct": true, "gold": "sprang", "id": 277, "output": "gnarps", "set": "reversal_in_dist"}
+{"correct": true, "gold": "rørt", "id": 278, "output": "trør", "set": "reversal_in_dist"}
+{"correct": true, "gold": "udsteder", "id": 279, "output": "redetsdu", "set": "reversal_in_dist"}
+{"correct": true, "gold": "livligt", "id": 280, "output": "tgilvil", "set": "reversal_in_dist"}
+{"correct": true, "gold": "ved", "id": 281, "output": "dev", "set": "reversal_in_dist"}
+{"correct": true, "gold": "gaaet", "id": 282, "output": "teaag", "set": "reversal_in_dist"}
+{"correct": true, "gold": "stønnede", "id": 283, "output": "edennøts", "set": "reversal_in_dist"}
+{"correct": true, "gold": "derfor", "id": 284, "output": "rofred", "set": "reversal_in_dist"}
+{"correct": true, "gold": "øde", "id": 285, "output": "edø", "set": "reversal_in_dist"}
+{"correct": false, "gold": "den", "id": 286, "output": "need", "set": "reversal_in_dist"}
+{"correct": true, "gold": "endnu", "id": 287, "output": "undne", "set": "reversal_in_dist"}
+{"correct": true, "gold": "slagtet", "id": 288, "output": "tetgals", "set": "reversal_in_dist"}
+{"correct": true, "gold": "evne", "id": 289, "output": "enve", "set": "reversal_in_dist"}
+{"correct": true, "gold": "faar", "id": 290, "output": "raaf", "set": "reversal_in_dist"}
+{"correct": true, "gold": "frie", "id": 291, "output": "eirf", "set": "reversal_in_dist"}
+{"correct": false, "gold": "opsætte", "id": 292, "output": "ettæspoo", "set": "reversal_in_dist"}
+{"correct": false, "gold": "opdage", "id": 293, "output": "egadod", "set": "reversal_in_dist"}
+{"correct": true, "gold": "bevægede", "id": 294, "output": "edegæveb", "set": "reversal_in_dist"}
+{"correct": true, "gold": "snavs", "id": 295, "output": "svans", "set": "reversal_in_dist"}
+{"correct": true, "gold": "stive", "id": 296, "output": "evits", "set": "reversal_in_dist"}
+{"correct": true, "gold": "dansede", "id": 297, "output": "edesnad", "set": "reversal_in_dist"}
+{"correct": true, "gold": "bange", "id": 298, "output": "egnab", "set": "reversal_in_dist"}
+{"correct": true, "gold": "megen", "id": 299, "output": "negem", "set": "reversal_in_dist"}
+{"correct": false, "gold": "besværligt", "id": 0, "output": "tgrævseb", "set": "reversal_long"}
+{"correct": false, "gold": "uanfægtet", "id": 1, "output": "tetgæfau", "set": "reversal_long"}
+{"correct": false, "gold": "cæsariske", "id": 2, "output": "eksirasyn", "set": "reversal_long"}
+{"correct": false, "gold": "glatkæmmet", "id": 3, "output": "temkalg", "set": "reversal_long"}
+{"correct": false, "gold": "utilfreds", "id": 4, "output": "sderfitu", "set": "reversal_long"}
+{"correct": false, "gold": "mangearmet", "id": 5, "output": "tramgnam", "set": "reversal_long"}
+{"correct": false, "gold": "forudgaaende", "id": 6, "output": "edurof", "set": "reversal_long"}
+{"correct": false, "gold": "yderligere", "id": 7, "output": "eregredy", "set": "reversal_long"}
+{"correct": false, "gold": "opstillede", "id": 8, "output": "edlitso", "set": "reversal_long"}
+{"correct": false, "gold": "betydelig", "id": 9, "output": "gidlyteb", "set": "reversal_long"}
+{"correct": false, "gold": "tilligemed", "id": 10, "output": "ememlit", "set": "reversal_long"}
+{"correct": false, "gold": "ufortrøden", "id": 11, "output": "nednoru", "set": "reversal_long"}
+{"correct": false, "gold": "ubeskrivelig", "id": 12, "output": "serebu", "set": "reversal_long"}
+{"correct": false, "gold": "fattigste", "id": 13, "output": "etsgitaf", "set": "reversal_long"}
+{"correct": false, "gold": "dagligdags", "id": 14, "output": "gaggild", "set": "reversal_long"}
+{"correct": false, "gold": "foregøglet", "id": 15, "output": "tegørof", "set": "reversal_long"}
+{"correct": false, "gold": "bredtskaarne", "id": 16, "output": "ratderb", "set": "reversal_long"}
+{"correct": false, "gold": "bestandige", "id": 17, "output": "ednatseb", "set": "reversal_long"}
+{"correct": false, "gold": "herhjemme", "id": 18, "output": "mmejmreh", "set": "reversal_long"}
+{"correct": false, "gold": "besmittede", "id": 19, "output": "edetseb", "set": "reversal_long"}
+{"correct": false, "gold": "overhovedet", "id": 20, "output": "tehrevo", "set": "reversal_long"}
+{"correct": false, "gold": "betydeligt", "id": 21, "output": "tgyteteb", "set": "reversal_long"}
+{"correct": false, "gold": "overflødige", "id": 22, "output": "egilrevo", "set": "reversal_long"}
+{"correct": false, "gold": "magnetiske", "id": 23, "output": "ekingam", "set": "reversal_long"}
+{"correct": false, "gold": "personlig", "id": 24, "output": "gilnosre", "set": "reversal_long"}
+{"correct": false, "gold": "anerkende", "id": 25, "output": "ednekren", "set": "reversal_long"}
+{"correct": true, "gold": "højrøstet", "id": 26, "output": "tetsørjøh", "set": "reversal_long"}
+{"correct": false, "gold": "inderligt", "id": 27, "output": "tgilredi", "set": "reversal_long"}
+{"correct": false, "gold": "serverede", "id": 28, "output": "edervres", "set": "reversal_long"}
+{"correct": false, "gold": "ligeoverfor", "id": 29, "output": "rovegil", "set": "reversal_long"}
+{"correct": false, "gold": "sparsommere", "id": 30, "output": "ermops", "set": "reversal_long"}
+{"correct": true, "gold": "vanskelig", "id": 31, "output": "gileksnav", "set": "reversal_long"}
+{"correct": false, "gold": "skummende", "id": 32, "output": "ednemuks", "set": "reversal_long"}
+{"correct": false, "gold": "snakkende", "id": 33, "output": "ednekans", "set": "reversal_long"}
+{"correct": false, "gold": "uopslidelige", "id": 34, "output": "egisou", "set": "reversal_long"}
+{"correct": false, "gold": "misbrugte", "id": 35, "output": "etgurbim", "set": "reversal_long"}
+{"correct": false, "gold": "overraskende", "id": 36, "output": "ekrevo", "set": "reversal_long"}
+{"correct": false, "gold": "hjerteformet", "id": 37, "output": "terejh", "set": "reversal_long"}
+{"correct": true, "gold": "fornærmes", "id": 38, "output": "semrænrof", "set": "reversal_long"}
+{"correct": false, "gold": "gennemføre", "id": 39, "output": "erømneg", "set": "reversal_long"}
+{"correct": false, "gold": "aabenbarede", "id": 40, "output": "erbebaa", "set": "reversal_long"}
+{"correct": true, "gold": "betragtes", "id": 41, "output": "setgarteb", "set": "reversal_long"}
+{"correct": true, "gold": "afvisende", "id": 42, "output": "ednesivfa", "set": "reversal_long"}
+{"correct": false, "gold": "friskbagt", "id": 43, "output": "tgabbips", "set": "reversal_long"}
+{"correct": false, "gold": "derhjemme", "id": 44, "output": "mmejmehd", "set": "reversal_long"}
+{"correct": false, "gold": "arriveret", "id": 45, "output": "terevira", "set": "reversal_long"}
+{"correct": false, "gold": "ufravigelig", "id": 46, "output": "givarfu", "set": "reversal_long"}
+{"correct": false, "gold": "besluttede", "id": 47, "output": "edetseb", "set": "reversal_long"}
+{"correct": false, "gold": "aabenhjertig", "id": 48, "output": "treha", "set": "reversal_long"}
+{"correct": false, "gold": "fornuftigt", "id": 49, "output": "tgiturof", "set": "reversal_long"}
+{"correct": false, "gold": "formodenlig", "id": 50, "output": "nedomof", "set": "reversal_long"}
+{"correct": true, "gold": "forlanger", "id": 51, "output": "regnalrof", "set": "reversal_long"}
+{"correct": false, "gold": "umusikalsk", "id": 52, "output": "kslasmu", "set": "reversal_long"}
+{"correct": false, "gold": "hvorunder", "id": 53, "output": "rednuroh", "set": "reversal_long"}
+{"correct": false, "gold": "vrikkende", "id": 54, "output": "ednekirv", "set": "reversal_long"}
+{"correct": false, "gold": "forskrækket", "id": 55, "output": "teksrof", "set": "reversal_long"}
+{"correct": false, "gold": "personlige", "id": 56, "output": "egnosrep", "set": "reversal_long"}
+{"correct": false, "gold": "kommanderede", "id": 57, "output": "ednak", "set": "reversal_long"}
+{"correct": false, "gold": "sortbetrukne", "id": 58, "output": "tertos", "set": "reversal_long"}
+{"correct": false, "gold": "unægtelig", "id": 59, "output": "gitgætu", "set": "reversal_long"}
+{"correct": false, "gold": "dennegang", "id": 60, "output": "gnagnene", "set": "reversal_long"}
+{"correct": false, "gold": "godvillig", "id": 61, "output": "gilivdog", "set": "reversal_long"}
+{"correct": false, "gold": "gemytlige", "id": 62, "output": "egiltymgeg", "set": "reversal_long"}
+{"correct": false, "gold": "inddraget", "id": 63, "output": "tegardni", "set": "reversal_long"}
+{"correct": false, "gold": "forstyrrer", "id": 64, "output": "rørtsrof", "set": "reversal_long"}
+{"correct": false, "gold": "indvundne", "id": 65, "output": "ennuvdni", "set": "reversal_long"}
+{"correct": false, "gold": "smaagrædende", "id": 66, "output": "edæms", "set": "reversal_long"}
+{"correct": false, "gold": "fredhellige", "id": 67, "output": "egdehringer", "set": "reversal_long"}
+{"correct": true, "gold": "beskedent", "id": 68, "output": "tnedekseb", "set": "reversal_long"}
+{"correct": false, "gold": "forbavser", "id": 69, "output": "resvarbo", "set": "reversal_long"}
+{"correct": false, "gold": "overvældede", "id": 70, "output": "ednæro", "set": "reversal_long"}
+{"correct": false, "gold": "taabeligt", "id": 71, "output": "tgilebat", "set": "reversal_long"}
+{"correct": false, "gold": "udarbejde", "id": 72, "output": "edjebrau", "set": "reversal_long"}
+{"correct": false, "gold": "sørgmodig", "id": 73, "output": "gimomrøs", "set": "reversal_long"}
+{"correct": false, "gold": "hvorledes", "id": 74, "output": "sedelovh", "set": "reversal_long"}
+{"correct": false, "gold": "hjulbenet", "id": 75, "output": "tenebluh", "set": "reversal_long"}
+{"correct": true, "gold": "tilføjede", "id": 76, "output": "edejøflit", "set": "reversal_long"}
+{"correct": false, "gold": "konfirmerede", "id": 77, "output": "erifok", "set": "reversal_long"}
+{"correct": true, "gold": "ulastelig", "id": 78, "output": "giletsalu", "set": "reversal_long"}
+{"correct": false, "gold": "øjensynlig", "id": 79, "output": "gnysnejø", "set": "reversal_long"}
+{"correct": true, "gold": "lykkeligt", "id": 80, "output": "tgilekkyl", "set": "reversal_long"}
+{"correct": false, "gold": "sammentrængt", "id": 81, "output": "tnemas", "set": "reversal_long"}
+{"correct": false, "gold": "mørkegraa", "id": 82, "output": "argekrøm", "set": "reversal_long"}
+{"correct": false, "gold": "vidtgaaende", "id": 83, "output": "ednativ", "set": "reversal_long"}
+{"correct": false, "gold": "straalende", "id": 84, "output": "ednearts", "set": "reversal_long"}
+{"correct": false, "gold": "idetmindste", "id": 85, "output": "tdnitei", "set": "reversal_long"}
+{"correct": true, "gold": "skumrende", "id": 86, "output": "ednermuks", "set": "reversal_long"}
+{"correct": false, "gold": "standsede", "id": 87, "output": "edesdnat", "set": "reversal_long"}
+{"correct": false, "gold": "nogensinde", "id": 88, "output": "ednesgo", "set": "reversal_long"}
+{"correct": true, "gold": "fortaltes", "id": 89, "output": "setlatrof", "set": "reversal_long"}
+{"correct": false, "gold": "skingrede", "id": 90, "output": "edergnik", "set": "reversal_long"}
+{"correct": false, "gold": "beskæftiget", "id": 91, "output": "tetseb", "set": "reversal_long"}
+{"correct": false, "gold": "artistisk", "id": 92, "output": "ksitsita", "set": "reversal_long"}
+{"correct": true, "gold": "plyndrede", "id": 93, "output": "ederdnylp", "set": "reversal_long"}
+{"correct": false, "gold": "afventende", "id": 94, "output": "ednevfa", "set": "reversal_long"}
+{"correct": false, "gold": "telegrafere", "id": 95, "output": "ergelt", "set": "reversal_long"}
+{"correct": true, "gold": "velskabte", "id": 96, "output": "etbakslev", "set": "reversal_long"}
+{"correct": false, "gold": "alligevel", "id": 97, "output": "levevlir", "set": "reversal_long"}
+{"correct": false, "gold": "akademiske", "id": 98, "output": "eksidaa", "set": "reversal_long"}
+{"correct": false, "gold": "beregnende", "id": 99, "output": "engereb", "set": "reversal_long"}
+{"correct": false, "gold": "omhyggelig", "id": 100, "output": "giggyhmo", "set": "reversal_long"}
+{"correct": false, "gold": "ligefremme", "id": 101, "output": "merfegil", "set": "reversal_long"}
+{"correct": false, "gold": "bølgekruset", "id": 102, "output": "tergøb", "set": "reversal_long"}
+{"correct": false, "gold": "omhvirvlet", "id": 103, "output": "tlrivhmo", "set": "reversal_long"}
+{"correct": false, "gold": "anskaffet", "id": 104, "output": "teffaksa", "set": "reversal_long"}
+{"correct": false, "gold": "naturligvis", "id": 105, "output": "sgilan", "set": "reversal_long"}
+{"correct": false, "gold": "bortstødt", "id": 106, "output": "tdøtsrob", "set": "reversal_long"}
+{"correct": false, "gold": "vanrøgtede", "id": 107, "output": "etgørnav", "set": "reversal_long"}
+{"correct": true, "gold": "brændende", "id": 108, "output": "ednednærb", "set": "reversal_long"}
+{"correct": false, "gold": "overbevist", "id": 109, "output": "tsivrevo", "set": "reversal_long"}
+{"correct": true, "gold": "hæderlige", "id": 110, "output": "egilredæh", "set": "reversal_long"}
+{"correct": false, "gold": "forbavset", "id": 111, "output": "tesvarbo", "set": "reversal_long"}
+{"correct": true, "gold": "virkelige", "id": 112, "output": "egilekriv", "set": "reversal_long"}
+{"correct": false, "gold": "virksomme", "id": 113, "output": "emmosriv", "set": "reversal_long"}
+{"correct": false, "gold": "udfordrende", "id": 114, "output": "ednofdu", "set": "reversal_long"}
+{"correct": false, "gold": "graaklædt", "id": 115, "output": "tdælkaag", "set": "reversal_long"}
+{"correct": false, "gold": "hvormegen", "id": 116, "output": "negemroh", "set": "reversal_long"}
+{"correct": false, "gold": "betragtede", "id": 117, "output": "etgarteb", "set": "reversal_long"}
+{"correct": true, "gold": "sædvanlig", "id": 118, "output": "gilnavdæs", "set": "reversal_long"}
+{"correct": false, "gold": "begejstret", "id": 119, "output": "tsjergeb", "set": "reversal_long"}
+{"correct": false, "gold": "udkastede", "id": 120, "output": "edetsadu", "set": "reversal_long"}
+{"correct": false, "gold": "strømmende", "id": 121, "output": "ednemrat", "set": "reversal_long"}
+{"correct": false, "gold": "offenlige", "id": 122, "output": "egilnefo", "set": "reversal_long"}
+{"correct": true, "gold": "vandkolde", "id": 123, "output": "edlokdnav", "set": "reversal_long"}
+{"correct": true, "gold": "afgørende", "id": 124, "output": "ednerøgfa", "set": "reversal_long"}
+{"correct": false, "gold": "bralrende", "id": 125, "output": "ednerrab", "set": "reversal_long"}
+{"correct": false, "gold": "tungsindig", "id": 126, "output": "gisdnut", "set": "reversal_long"}
+{"correct": false, "gold": "regelmæssig", "id": 127, "output": "gimler", "set": "reversal_long"}
+{"correct": false, "gold": "græsseligt", "id": 128, "output": "tgissærg", "set": "reversal_long"}
+{"correct": false, "gold": "nedringet", "id": 129, "output": "tegirden", "set": "reversal_long"}
+{"correct": true, "gold": "mislykkes", "id": 130, "output": "sekkylsim", "set": "reversal_long"}
+{"correct": false, "gold": "desmindre", "id": 131, "output": "erdnimed", "set": "reversal_long"}
+{"correct": false, "gold": "kæmpemæssig", "id": 132, "output": "gimæmkyk", "set": "reversal_long"}
+{"correct": false, "gold": "forrettede", "id": 133, "output": "edetrof", "set": "reversal_long"}
+{"correct": false, "gold": "fremsendte", "id": 134, "output": "tdnesmef", "set": "reversal_long"}
+{"correct": true, "gold": "moderlige", "id": 135, "output": "egilredom", "set": "reversal_long"}
+{"correct": false, "gold": "halvnøgen", "id": 136, "output": "negøvlah", "set": "reversal_long"}
+{"correct": false, "gold": "allevegnefra", "id": 137, "output": "evella", "set": "reversal_long"}
+{"correct": false, "gold": "skinnende", "id": 138, "output": "edneniks", "set": "reversal_long"}
+{"correct": false, "gold": "purhaaret", "id": 139, "output": "terahrap", "set": "reversal_long"}
+{"correct": false, "gold": "udskænket", "id": 140, "output": "teknækdu", "set": "reversal_long"}
+{"correct": false, "gold": "eenarmede", "id": 141, "output": "edemrene", "set": "reversal_long"}
+{"correct": false, "gold": "ubehageligt", "id": 142, "output": "tgahebu", "set": "reversal_long"}
+{"correct": false, "gold": "eftersaae", "id": 143, "output": "eaasrete", "set": "reversal_long"}
+{"correct": false, "gold": "hensynsfuld", "id": 144, "output": "snysneh", "set": "reversal_long"}
+{"correct": true, "gold": "strømmede", "id": 145, "output": "edemmørts", "set": "reversal_long"}
+{"correct": false, "gold": "udtrykkelig", "id": 146, "output": "lekddu", "set": "reversal_long"}
+{"correct": true, "gold": "forligede", "id": 147, "output": "edegilrof", "set": "reversal_long"}
+{"correct": false, "gold": "væsenligst", "id": 148, "output": "tgilesæv", "set": "reversal_long"}
+{"correct": true, "gold": "medbringe", "id": 149, "output": "egnirbdem", "set": "reversal_long"}
+{"correct": false, "gold": "drømmende", "id": 150, "output": "ednemørd", "set": "reversal_long"}
+{"correct": false, "gold": "hensygnende", "id": 151, "output": "engyneh", "set": "reversal_long"}
+{"correct": false, "gold": "falbydende", "id": 152, "output": "edneblaf", "set": "reversal_long"}
+{"correct": false, "gold": "parfymeret", "id": 153, "output": "teryfra", "set": "reversal_long"}
+{"correct": false, "gold": "skjulteste", "id": 154, "output": "setlujks", "set": "reversal_long"}
+{"correct": false, "gold": "opstillet", "id": 155, "output": "telitspo", "set": "reversal_long"}
+{"correct": false, "gold": "fortsætte", "id": 156, "output": "ettæsrof", "set": "reversal_long"}
+{"correct": false, "gold": "fortæller", "id": 157, "output": "relætrof", "set": "reversal_long"}
+{"correct": false, "gold": "smertelige", "id": 158, "output": "egitrems", "set": "reversal_long"}
+{"correct": false, "gold": "haandterede", "id": 159, "output": "erdnah", "set": "reversal_long"}
+{"correct": false, "gold": "fuldstændig", "id": 160, "output": "gitsuf", "set": "reversal_long"}
+{"correct": false, "gold": "trettenaars", "id": 161, "output": "naatert", "set": "reversal_long"}
+{"correct": false, "gold": "sørgerandede", "id": 162, "output": "edrøs", "set": "reversal_long"}
+{"correct": true, "gold": "lykkelige", "id": 163, "output": "egilekkyl", "set": "reversal_long"}
+{"correct": false, "gold": "adskillige", "id": 164, "output": "egilksda", "set": "reversal_long"}
+{"correct": false, "gold": "udciseleret", "id": 165, "output": "teridu", "set": "reversal_long"}
+{"correct": false, "gold": "hvormeget", "id": 166, "output": "tegmrovh", "set": "reversal_long"}
+{"correct": false, "gold": "uforblommede", "id": 167, "output": "edelou", "set": "reversal_long"}
+{"correct": true, "gold": "mistænkes", "id": 168, "output": "seknætsim", "set": "reversal_long"}
+{"correct": false, "gold": "ulykkelige", "id": 169, "output": "egikkylu", "set": "reversal_long"}
+{"correct": false, "gold": "staallenes", "id": 170, "output": "senlats", "set": "reversal_long"}
+{"correct": false, "gold": "medansvarlig", "id": 171, "output": "rasdem", "set": "reversal_long"}
+{"correct": false, "gold": "indeholde", "id": 172, "output": "edlohdni", "set": "reversal_long"}
+{"correct": false, "gold": "snublende", "id": 173, "output": "edneluns", "set": "reversal_long"}
+{"correct": true, "gold": "forkyndte", "id": 174, "output": "etdnykrof", "set": "reversal_long"}
+{"correct": false, "gold": "strikkede", "id": 175, "output": "edekirts", "set": "reversal_long"}
+{"correct": false, "gold": "gennemlevede", "id": 176, "output": "evmeng", "set": "reversal_long"}
+{"correct": false, "gold": "omtaagede", "id": 177, "output": "edegatmo", "set": "reversal_long"}
+{"correct": false, "gold": "skønneste", "id": 178, "output": "enennøks", "set": "reversal_long"}
+{"correct": true, "gold": "geskæftig", "id": 179, "output": "gitfækseg", "set": "reversal_long"}
+{"correct": false, "gold": "langstrakte", "id": 180, "output": "etsgnal", "set": "reversal_long"}
+{"correct": false, "gold": "stejlpandet", "id": 181, "output": "teljets", "set": "reversal_long"}
+{"correct": true, "gold": "stirrende", "id": 182, "output": "ednerrits", "set": "reversal_long"}
+{"correct": false, "gold": "undertegnet", "id": 183, "output": "tetredu", "set": "reversal_long"}
+{"correct": false, "gold": "himmelfalden", "id": 184, "output": "nemih", "set": "reversal_long"}
+{"correct": false, "gold": "taktfaste", "id": 185, "output": "etsatkat", "set": "reversal_long"}
+{"correct": false, "gold": "omskifteligt", "id": 186, "output": "tgikso", "set": "reversal_long"}
+{"correct": false, "gold": "saakaldte", "id": 187, "output": "etdlaas", "set": "reversal_long"}
+{"correct": false, "gold": "stormfulde", "id": 188, "output": "ednurts", "set": "reversal_long"}
+{"correct": false, "gold": "overleverede", "id": 189, "output": "erelo", "set": "reversal_long"}
+{"correct": false, "gold": "blussende", "id": 190, "output": "ednessub", "set": "reversal_long"}
+{"correct": true, "gold": "stormende", "id": 191, "output": "ednemrots", "set": "reversal_long"}
+{"correct": true, "gold": "foregiver", "id": 192, "output": "revigerof", "set": "reversal_long"}
+{"correct": false, "gold": "salomonske", "id": 193, "output": "eksmoras", "set": "reversal_long"}
+{"correct": false, "gold": "ubekendte", "id": 194, "output": "etdnekeu", "set": "reversal_long"}
+{"correct": true, "gold": "tarveligt", "id": 195, "output": "tgilevrat", "set": "reversal_long"}
+{"correct": false, "gold": "fuldkommen", "id": 196, "output": "nemmuduf", "set": "reversal_long"}
+{"correct": false, "gold": "unødvendig", "id": 197, "output": "gnevdønu", "set": "reversal_long"}
+{"correct": false, "gold": "benaadede", "id": 198, "output": "ededaneb", "set": "reversal_long"}
+{"correct": false, "gold": "taknemlige", "id": 199, "output": "egmenkat", "set": "reversal_long"}

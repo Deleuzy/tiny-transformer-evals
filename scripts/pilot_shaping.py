@@ -64,7 +64,7 @@ def main() -> None:
     words_id = [w for w in lower_words(s.val, *ID_LEN) if w not in train_words][:200]
     words_long = [w for w in lower_words(s.val, *LONG_LEN) if w not in train_words][:150]
     sft(cfg)
-    res: dict[str, Any] = {"split": "validation", "rule": __doc__.split("The rule, fixed before looking: ")[1].split(".")[0],
+    res: dict[str, Any] = {"split": "validation", "rule": " ".join(__doc__.split("The rule, fixed before looking: ")[1].split(".")[0].split()),
                            "sft": score(cfg.runs_dir / "sft.pt", words_id, words_long), "dpo": []}
     for cand in CANDIDATES:
         c = replace(cfg, dpo=replace(cfg.dpo, lr=cand["lr"], nll_weight=cand["nll_weight"]))

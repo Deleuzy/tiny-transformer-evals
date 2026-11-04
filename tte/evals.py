@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import math
 import random
+from functools import cache
 from typing import Any, Protocol
 
 import torch
@@ -15,7 +16,7 @@ import torch.nn.functional as F
 from torch import Tensor, nn
 
 from tte.data import OOD_BOOKS, CharTokenizer, eval_windows, load_splits, read_book
-from tte.tasks import read_set
+from tte.tasks import _WORD, read_set
 
 # What each eval does and does not measure. Copied into every results file next to the numbers.
 DESCRIPTIONS: dict[str, dict[str, str]] = {
@@ -24,11 +25,13 @@ DESCRIPTIONS: dict[str, dict[str, str]] = {
         "trained on), reported as perplexity and bits per character with a bootstrap 95% interval over windows.",
         "does_not_measure": "Whether generated text is coherent or useful. Same books and spelling as training, "
         "so it says nothing about other domains. Windows are non-overlapping, so early characters in each "
-        "window see little context.",
+        "window see little context. The interval covers only the choice of test windows (which are "
+        "contiguous, so it is somewhat too narrow), not variation between training runs.",
     },
     "word_completion": {
-        "measures": "Exact-match rate when the model, given 96 characters of held-out text and the first 3 "
-        "letters of a word of 6 or more letters, completes the word by greedy decoding.",
+        "measures": "Exact-match rate when the model, given 96 characters of held-out text from the same "
+        "paragraph and the first 3 letters of a word of 6 or more letters, completes the word by greedy "
+        "decoding. Also the share of misses that are another word found in the training text.",
         "does_not_measure": "Understanding. Frequent words and names repeated within a story are easy; "
         "a single gold answer marks plausible alternatives wrong.",
     },
@@ -41,15 +44,18 @@ DESCRIPTIONS: dict[str, dict[str, str]] = {
     "reversal": {
         "measures": "Exact-match rate on the SFT task: given '\\nvend:<word>=' write the word reversed and a "
         "newline. In-distribution words have 3 to 8 letters, as in training; 'long' words have 9 to 12 letters, "
-        "a length never seen in training. mean_length_error is output length minus word length (positive = too long). All eval words come from the test split and are excluded from the "
-        "training words.",
+        "a length never seen in training. mean_length_error is output length minus word length (positive = too "
+        "long). char_accuracy compares characters position by position, so one dropped letter makes every "
+        "later position wrong. All eval words come from the test split and are excluded from the training "
+        "words.",
         "does_not_measure": "Instruction following in general. It is one narrow synthetic task.",
     },
     "robustness": {
         "measures": "Bits per character on perturbed or out-of-distribution text, and the change from clean "
-        "test text. Typos: each letter of the context is replaced by a random letter with probability p, while "
-        "the targets stay the clean text (how well the model still predicts the right text from a noisy "
-        "context). Case changes and other books are scored on their own text.",
+        "test text. Typos: each letter of the context is replaced, with probability p, by a different letter "
+        "of the same case, while the targets stay the clean text (how well the model still predicts the right "
+        "text from a noisy context); the measured share of changed letters is recorded. Case changes and "
+        "other books are scored on their own text.",
         "does_not_measure": "Adversarial robustness: the noise is random, not searched for. The unknown-"
         "character rate is reported because unknown characters cannot be predicted at all.",
     },
@@ -148,19 +154,37 @@ def eval_heldout(scorer: Scorer, tok: CharTokenizer, text: str) -> dict[str, Any
     return {"chars_scored": y.numel(), **nll_summary(token_nll(scorer, x, y))}
 
 
+@cache
+def training_words() -> frozenset[str]:
+    """Every word (lowercased) in the training split: used to tell a real-word miss from a non-word."""
+    return frozenset(w.lower() for w in _WORD.findall(load_splits().train))
+
+
 def eval_word_completion(scorer: Scorer, tok: CharTokenizer, limit: int) -> dict[str, Any]:
     items = read_set("word_completion", limit)
     stop = frozenset(i for c, i in tok.stoi.items() if not c.isalpha())
-    hits = 0
-    examples: list[dict[str, Any]] = []
-    for it in items:
+    vocab = training_words()
+    hits, real_misses = 0, 0
+    preds: list[dict[str, Any]] = []
+    for idx, it in enumerate(items):
         out = tok.decode(greedy(scorer, tok.encode(it["prompt"]), len(it["answer"]) + 1, stop))
         guess = "".join(ch for ch in out if ch.isalpha())
         ok = guess == it["answer"]
         hits += ok
-        if len(examples) < 5:
-            examples.append({"word": it["word"], "model": it["word"][:3] + guess, "correct": ok})
-    return {"n": len(items), "exact_match": round(hits / len(items), 4), "examples": examples}
+        word = it["word"][:3] + guess
+        real = not ok and word.lower() in vocab
+        real_misses += real
+        preds.append({"set": "word_completion", "id": idx, "gold": it["word"], "output": word, "correct": ok,
+                      "miss_is_training_word": real})
+    misses = len(items) - hits
+    return {
+        "n": len(items),
+        "exact_match": round(hits / len(items), 4),
+        "misses": misses,
+        "misses_that_are_training_words": round(real_misses / misses, 4) if misses else 0.0,
+        "examples": [{"word": p["gold"], "model": p["output"], "correct": p["correct"]} for p in preds[:5]],
+        "predictions": preds,
+    }
 
 
 def eval_minimal_pairs(scorer: Scorer, tok: CharTokenizer, limit: int) -> dict[str, Any]:
@@ -170,12 +194,15 @@ def eval_minimal_pairs(scorer: Scorer, tok: CharTokenizer, limit: int) -> dict[s
         sub = [it for it in items if it["kind"] == kind]
         sub = sub[:limit] if limit else sub
         wins = 0
-        for it in sub:
-            ctx = tok.encode("\n")
-            wins += sequence_logprob(scorer, ctx, tok.encode(it["good"])) > sequence_logprob(
-                scorer, ctx, tok.encode(it["bad"])
-            )
-        res[kind] = {"n": len(sub), "accuracy": round(wins / len(sub), 4)}
+        preds: list[dict[str, Any]] = []
+        ctx = tok.encode("\n")
+        for idx, it in enumerate(sub):
+            good = sequence_logprob(scorer, ctx, tok.encode(it["good"]))
+            bad = sequence_logprob(scorer, ctx, tok.encode(it["bad"]))
+            wins += good > bad
+            preds.append({"set": f"minimal_pairs_{kind}", "id": idx, "logprob_good": round(good, 4),
+                          "logprob_bad": round(bad, 4), "correct": good > bad})
+        res[kind] = {"n": len(sub), "accuracy": round(wins / len(sub), 4), "predictions": preds}
     return res
 
 
@@ -185,28 +212,38 @@ def eval_reversal(scorer: Scorer, tok: CharTokenizer, limit: int) -> dict[str, A
     for name in ("reversal_in_dist", "reversal_long"):
         items = read_set(name, limit)
         hits, char_acc, len_err = 0, 0.0, 0
-        examples: list[dict[str, Any]] = []
-        for it in items:
+        preds: list[dict[str, Any]] = []
+        for idx, it in enumerate(items):
             out = tok.decode(greedy(scorer, tok.encode(it["prompt"]), len(it["answer"]) + 2, stop))
-            hits += out == it["answer"]
             gold = it["answer"]
+            hits += out == gold
             char_acc += sum(a == b for a, b in zip(out, gold, strict=False)) / len(gold)
             len_err += len(out.rstrip("\n")) - len(it["word"])
-            if len(examples) < 4:
-                examples.append({"word": it["word"], "model": out.rstrip("\n"), "correct": out == gold})
+            preds.append({"set": name, "id": idx, "gold": it["word"], "output": out.rstrip("\n"), "correct": out == gold})
         res[name.removeprefix("reversal_")] = {
             "n": len(items),
             "exact_match": round(hits / len(items), 4),
             "char_accuracy": round(char_acc / len(items), 4),
             "mean_length_error": round(len_err / len(items), 3),
-            "examples": examples,
+            "examples": [{"word": p["gold"], "model": p["output"], "correct": p["correct"]} for p in preds[:4]],
+            "predictions": preds,
         }
     return res
 
 
+TYPO_LETTERS = "abcdefghijklmnopqrstuvwxyzæøå"
+
+
 def add_typos(text: str, p: float, rng: random.Random) -> str:
-    letters = "abcdefghijklmnoprstuvwxyzæøå"
-    return "".join(rng.choice(letters) if c.isalpha() and rng.random() < p else c for c in text)
+    """Replace each letter, with probability p, by a different letter of the same case."""
+    out = []
+    for c in text:
+        low = c.lower()
+        if low in TYPO_LETTERS and rng.random() < p:
+            new = rng.choice([x for x in TYPO_LETTERS if x != low])
+            c = new.upper() if c.isupper() else new
+        out.append(c)
+    return "".join(out)
 
 
 def eval_robustness(scorer: Scorer, tok: CharTokenizer, test: str, max_chars: int) -> dict[str, Any]:
@@ -219,10 +256,14 @@ def eval_robustness(scorer: Scorer, tok: CharTokenizer, test: str, max_chars: in
     def record(name: str, bpc: float, unk: float) -> None:
         res[name] = {"bits_per_char": round(bpc, 4), "delta_vs_clean": round(bpc - base, 4), "unknown_char_rate": round(unk, 5)}
 
+    letters = sum(c.lower() in TYPO_LETTERS for c in clean)
     for p in (0.05, 0.15):
         noisy = add_typos(clean, p, random.Random(1000 + int(p * 100)))
+        assert len(noisy) == len(clean)  # same length, so noisy inputs line up with the clean targets y
         nx, _ = eval_windows(torch.tensor(tok.encode(noisy)), scorer.max_len)
-        record(f"typos_{int(p * 100)}pct_context", float(token_nll(scorer, nx, y).mean()) / math.log(2), 0.0)
+        name = f"typos_{int(p * 100)}pct_context"
+        record(name, float(token_nll(scorer, nx, y).mean()) / math.log(2), tok.unknown_rate(noisy))
+        res[name]["changed_letter_rate"] = round(sum(a != b for a, b in zip(clean, noisy, strict=True)) / letters, 4)
     for name, fn in (("lowercase", str.lower), ("uppercase", str.upper)):
         t = fn(clean)
         tx, ty = eval_windows(torch.tensor(tok.encode(t)), scorer.max_len)
@@ -233,6 +274,16 @@ def eval_robustness(scorer: Scorer, tok: CharTokenizer, test: str, max_chars: in
         tx, ty = eval_windows(torch.tensor(tok.encode(t)), scorer.max_len)
         record(f"ood_{name}", float(token_nll(scorer, tx, ty).mean()) / math.log(2), tok.unknown_rate(t))
     return res
+
+
+def pop_predictions(res: dict[str, Any]) -> list[dict[str, Any]]:
+    """Remove every per-item prediction list from a run_all result (in place) and return them flat."""
+    out: list[dict[str, Any]] = []
+    for key in ("word_completion", "minimal_pairs", "reversal"):
+        sec = res[key]
+        for part in [sec] if "predictions" in sec else list(sec.values()):
+            out.extend(part.pop("predictions"))
+    return out
 
 
 def run_all(scorer: Scorer, tok: CharTokenizer, max_items: int, max_chars: int, label: str) -> dict[str, Any]:

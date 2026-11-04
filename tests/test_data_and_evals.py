@@ -1,12 +1,14 @@
 import math
+import random
 
 import torch
 
 from tte.bigram import BigramModel
 from tte.data import CharTokenizer, clean_gutenberg, eval_windows, load_splits, split_paragraphs
-from tte.evals import BigramScorer, greedy, sequence_logprob, token_nll
+from tte.evals import TYPO_LETTERS, BigramScorer, add_typos, greedy, sequence_logprob, token_nll
 from tte.shaping import pack
-from tte.tasks import EVALS, build_all, reversal_answer, reversal_prompt, task_train_words
+from tte.stats import mcnemar_exact
+from tte.tasks import EVALS, build_all, reversal_answer, reversal_prompt, serialize, task_train_words
 
 
 def test_clean_gutenberg_keeps_body_only() -> None:
@@ -85,8 +87,7 @@ def test_eval_sets_are_reproducible_and_disjoint_from_training_words() -> None:
     s = load_splits()
     sets = build_all(s)
     for name, items in sets.items():
-        on_disk = (EVALS / f"{name}.jsonl").read_text(encoding="utf-8").splitlines()
-        assert len(on_disk) == len(items), name
+        assert (EVALS / f"{name}.jsonl").read_text(encoding="utf-8") == serialize(items), name
     train_words = set(task_train_words(s))
     for name in ("reversal_in_dist", "reversal_long"):
         assert not {it["word"] for it in sets[name]} & train_words
@@ -94,3 +95,25 @@ def test_eval_sets_are_reproducible_and_disjoint_from_training_words() -> None:
         assert sorted(it["good"]) == sorted(it["bad"]) and it["good"] != it["bad"]
     for it in sets["word_completion"]:
         assert it["prompt"][-3:] + it["answer"] == it["word"]
+        assert "\n" not in it["prompt"]  # the context stays inside one paragraph
+
+
+def test_typos_keep_length_case_and_always_change_the_letter() -> None:
+    text = "Hej Med Dig, sagde Per. " * 50
+    noisy = add_typos(text, 1.0, random.Random(0))
+    assert len(noisy) == len(text)
+    for a, b in zip(text, noisy, strict=True):
+        if a.lower() in TYPO_LETTERS:
+            assert a != b and a.isupper() == b.isupper()
+        else:
+            assert a == b
+    assert add_typos(text, 0.0, random.Random(0)) == text
+
+
+def test_mcnemar_exact() -> None:
+    before = [False] * 17 + [True] * 4 + [True] * 279
+    after = [True] * 17 + [False] * 4 + [True] * 279
+    t = mcnemar_exact(before, after)
+    assert (t["fixed"], t["broken"], t["n"]) == (17, 4, 300)
+    assert math.isclose(t["p_value"], 2 * sum(math.comb(21, i) for i in range(5)) / 2**21)
+    assert mcnemar_exact([True, False], [True, False])["p_value"] == 1.0

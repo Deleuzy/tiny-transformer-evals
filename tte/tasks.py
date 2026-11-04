@@ -48,8 +48,15 @@ def task_train_words(splits: Splits) -> list[str]:
 
 
 def build_word_completion(test: str, n: int, rng: random.Random) -> list[dict[str, Any]]:
-    """Context of 96 chars, then the first 3 letters of a word of 6+ letters. Answer: the rest of the word."""
-    cands = [m for m in _WORD.finditer(test) if len(m.group()) >= 6 and m.start() >= 96]
+    """Context of 96 chars, then the first 3 letters of a word of 6+ letters. Answer: the rest of the word.
+
+    The context must lie inside one paragraph: the test split joins blocks that are not neighbours in
+    the books, so a context that crossed a line break could join unrelated text."""
+    cands = [
+        m
+        for m in _WORD.finditer(test)
+        if len(m.group()) >= 6 and m.start() >= 96 and "\n" not in test[m.start() - 96 : m.start()]
+    ]
     items = []
     for m in sorted(rng.sample(cands, min(n, len(cands))), key=lambda m: m.start()):
         w = m.group()
@@ -109,20 +116,27 @@ def build_reversal(test: str, lo: int, hi: int, n: int, rng: random.Random) -> l
 
 
 def build_all(splits: Splits, seed: int = 0) -> dict[str, list[dict[str, Any]]]:
-    rng = random.Random(seed)
+    """Each set has its own generator (seeded from its name), so changing one set never reshuffles another."""
+
+    def rng(name: str) -> random.Random:
+        return random.Random(f"{seed}:{name}")  # str seeds are hashed with SHA-512: stable across runs
+
     return {
-        "word_completion": build_word_completion(splits.test, 400, rng),
-        "minimal_pairs": build_minimal_pairs(splits.test, 300, rng),
-        "reversal_in_dist": build_reversal(splits.test, *ID_LEN, 300, rng),
-        "reversal_long": build_reversal(splits.test, *LONG_LEN, 200, rng),
+        "word_completion": build_word_completion(splits.test, 400, rng("word_completion")),
+        "minimal_pairs": build_minimal_pairs(splits.test, 300, rng("minimal_pairs")),
+        "reversal_in_dist": build_reversal(splits.test, *ID_LEN, 300, rng("reversal_in_dist")),
+        "reversal_long": build_reversal(splits.test, *LONG_LEN, 200, rng("reversal_long")),
     }
+
+
+def serialize(items: list[dict[str, Any]]) -> str:
+    return "\n".join(json.dumps(it, ensure_ascii=False, sort_keys=True) for it in items) + "\n"
 
 
 def write_all(sets: dict[str, list[dict[str, Any]]], out: Path = EVALS) -> None:
     out.mkdir(parents=True, exist_ok=True)
     for name, items in sets.items():
-        lines = [json.dumps(it, ensure_ascii=False, sort_keys=True) for it in items]
-        (out / f"{name}.jsonl").write_text("\n".join(lines) + "\n", encoding="utf-8")
+        (out / f"{name}.jsonl").write_text(serialize(items), encoding="utf-8")
 
 
 def read_set(name: str, limit: int = 0) -> list[dict[str, Any]]:

@@ -43,6 +43,10 @@
       "max_items": 0,
       "max_chars": 0
     },
+    "shaping_seeds": [
+      2234,
+      3234
+    ],
     "quant": {
       "runs": 300,
       "warmup": 20,
@@ -58,7 +62,7 @@
   "val_chars": 133975,
   "test_chars": 114481,
   "tokens_seen": 12288000,
-  "train_seconds": 852.5,
+  "train_seconds": 705.2,
   "bigram_val_loss_on_curve_windows": 2.395545721054077,
   "curve": [
     {

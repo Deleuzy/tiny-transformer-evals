@@ -27,7 +27,7 @@ jobs:
         run: uv run python -m tte all --config configs/tiny.json
       - name: Every expected results file was written
         run: |
-          for f in train_log.json loss_curve.png eval_bigram.json eval_base.json eval_sft.json eval_dpo.json sft_log.json dpo_log.json dpo_pairs.jsonl quant.json; do
+          for f in train_log.json loss_curve.png eval_bigram.json eval_base.json eval_sft.json eval_dpo.json sft_log.json dpo_log.json dpo_pairs.jsonl quant.json seeds.json predictions_base.jsonl predictions_dpo.jsonl; do
             test -s results/tiny/$f || { echo "missing results/tiny/$f"; exit 1; }
           done
       - name: README numbers match the committed full results

@@ -71,6 +71,8 @@ class RunConfig:
     dpo: DpoCfg
     evals: EvalCfg
     quant: QuantCfg
+    # Extra seeds for SFT and DPO (same pretrained base model) to show how much the shaping results vary.
+    shaping_seeds: tuple[int, ...] = ()
     raw: dict[str, Any] = field(default_factory=dict, compare=False, repr=False)
 
     @property
@@ -96,6 +98,7 @@ def load_config(path: str | Path) -> RunConfig:
         dpo=DpoCfg(**raw["dpo"]),
         evals=EvalCfg(**raw["evals"]),
         quant=QuantCfg(**raw["quant"]),
+        shaping_seeds=tuple(raw.get("shaping_seeds", [])),
         raw=raw,
     )
 

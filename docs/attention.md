@@ -67,7 +67,8 @@ every position gets a distinct pattern and nearby positions get similar ones.
 ## A block, and the whole model
 
 A decoder-only transformer is a stack of identical blocks. This repository uses the
-**pre-LayerNorm** form, which trains stably without careful warm-up:
+**pre-LayerNorm** form, which is less sensitive to the learning-rate warm-up than the original
+post-LayerNorm form (this repository still uses a short warm-up):
 
     x = x + Attention(LayerNorm(x))
     x = x + MLP(LayerNorm(x))          MLP = Linear(d, 4d), GELU, Linear(4d, d)
@@ -83,7 +84,8 @@ cross-entropy between that distribution and the character that really came next.
 When generating one character at a time, the keys and values of earlier positions never
 change (the mask guarantees that). So the model keeps them in a cache and, for each new
 character, computes only the new query, key and value, then attends over the cache. That
-turns each step from work on the whole sequence into work on one position.
+turns each step from work on the whole sequence into work on one position plus one pass over
+the cached keys and values.
 `test_kv_cache_matches_full_pass` checks that cached and uncached decoding give the same
 result, and `results/full/quant.json` measures the speed difference.
 

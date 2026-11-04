@@ -5,42 +5,43 @@
   "prompt_len": 64,
   "new_tokens": 32,
   "runs": 300,
+  "timing": "runs interleaved across fp32 and int8, order flipped every run",
   "fp32": {
     "state_dict_bytes": 5102084,
     "heldout": {
       "chars_scored": 114432,
-      "nll_nats": 1.4582,
-      "perplexity": 4.298,
-      "bits_per_char": 2.1037,
+      "nll_nats": 1.4689,
+      "perplexity": 4.345,
+      "bits_per_char": 2.1192,
       "bits_per_char_ci95": [
-        2.0833,
-        2.1254
+        2.0985,
+        2.1416
       ],
       "windows": 894
     },
-    "word_completion_exact_match": 0.275,
+    "word_completion_exact_match": 0.2525,
     "reversal": {
-      "in_dist": 0.9567,
-      "long": 0.15
+      "in_dist": 0.9033,
+      "long": 0.165
     },
     "latency": {
       "prefill": {
-        "p50_ms": 1.738,
-        "p95_ms": 2.342,
-        "p99_ms": 2.572,
-        "mean_ms": 1.846
+        "p50_ms": 2.015,
+        "p95_ms": 2.292,
+        "p99_ms": 2.497,
+        "mean_ms": 2.05
       },
       "generate_kv_cache": {
-        "p50_ms": 22.701,
-        "p95_ms": 24.658,
-        "p99_ms": 25.955,
-        "mean_ms": 22.739
+        "p50_ms": 27.356,
+        "p95_ms": 29.348,
+        "p99_ms": 31.921,
+        "mean_ms": 27.333
       },
       "generate_no_cache": {
-        "p50_ms": 76.763,
-        "p95_ms": 84.715,
-        "p99_ms": 103.146,
-        "mean_ms": 77.825
+        "p50_ms": 72.9,
+        "p95_ms": 78.259,
+        "p99_ms": 88.244,
+        "mean_ms": 73.302
       }
     }
   },
@@ -48,38 +49,38 @@
     "state_dict_bytes": 1377182,
     "heldout": {
       "chars_scored": 114432,
-      "nll_nats": 1.4587,
-      "perplexity": 4.3,
-      "bits_per_char": 2.1045,
+      "nll_nats": 1.4696,
+      "perplexity": 4.348,
+      "bits_per_char": 2.1202,
       "bits_per_char_ci95": [
-        2.084,
-        2.1262
+        2.0994,
+        2.1427
       ],
       "windows": 894
     },
-    "word_completion_exact_match": 0.285,
+    "word_completion_exact_match": 0.2475,
     "reversal": {
-      "in_dist": 0.9567,
-      "long": 0.155
+      "in_dist": 0.9067,
+      "long": 0.165
     },
     "latency": {
       "prefill": {
-        "p50_ms": 2.994,
-        "p95_ms": 3.311,
-        "p99_ms": 3.458,
-        "mean_ms": 2.986
+        "p50_ms": 3.059,
+        "p95_ms": 3.375,
+        "p99_ms": 3.611,
+        "mean_ms": 3.071
       },
       "generate_kv_cache": {
-        "p50_ms": 40.002,
-        "p95_ms": 42.308,
-        "p99_ms": 45.058,
-        "mean_ms": 40.31
+        "p50_ms": 44.705,
+        "p95_ms": 47.949,
+        "p99_ms": 49.545,
+        "mean_ms": 44.816
       },
       "generate_no_cache": {
-        "p50_ms": 115.819,
-        "p95_ms": 124.542,
-        "p99_ms": 135.102,
-        "mean_ms": 116.756
+        "p50_ms": 108.449,
+        "p95_ms": 115.634,
+        "p99_ms": 120.706,
+        "mean_ms": 109.294
       }
     }
   }

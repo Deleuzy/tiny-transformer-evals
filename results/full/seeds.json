@@ -1,0 +1,83 @@
+{
+  "note": "Same pretrained base model for every seed. The seed changes the SFT and DPO word split, batches and dropout. The first row is the main run.",
+  "runs": [
+    {
+      "seed": 1234,
+      "dpo_pairs": 229,
+      "sft": {
+        "in_dist": 0.91,
+        "long": 0.065
+      },
+      "dpo": {
+        "in_dist": 0.9033,
+        "long": 0.165
+      },
+      "paired_sft_to_dpo": {
+        "in_dist": {
+          "n": 300,
+          "fixed": 23,
+          "broken": 25,
+          "p_value": 0.8854334972865132
+        },
+        "long": {
+          "n": 200,
+          "fixed": 23,
+          "broken": 3,
+          "p_value": 8.797645568847656e-05
+        }
+      }
+    },
+    {
+      "seed": 2234,
+      "dpo_pairs": 160,
+      "sft": {
+        "in_dist": 0.93,
+        "long": 0.085
+      },
+      "dpo": {
+        "in_dist": 0.9367,
+        "long": 0.115
+      },
+      "paired_sft_to_dpo": {
+        "in_dist": {
+          "n": 300,
+          "fixed": 19,
+          "broken": 17,
+          "p_value": 0.8679394004284404
+        },
+        "long": {
+          "n": 200,
+          "fixed": 13,
+          "broken": 7,
+          "p_value": 0.26317596435546875
+        }
+      }
+    },
+    {
+      "seed": 3234,
+      "dpo_pairs": 158,
+      "sft": {
+        "in_dist": 0.9033,
+        "long": 0.055
+      },
+      "dpo": {
+        "in_dist": 0.88,
+        "long": 0.185
+      },
+      "paired_sft_to_dpo": {
+        "in_dist": {
+          "n": 300,
+          "fixed": 18,
+          "broken": 25,
+          "p_value": 0.3603776529357674
+        },
+        "long": {
+          "n": 200,
+          "fixed": 30,
+          "broken": 4,
+          "p_value": 6.16488978266716e-06
+        }
+      }
+    }
+  ]
+}
