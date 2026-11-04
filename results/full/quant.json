@@ -1,0 +1,86 @@
+{
+  "model": "dpo",
+  "threads": 4,
+  "engine": "qnnpack",
+  "prompt_len": 64,
+  "new_tokens": 32,
+  "runs": 300,
+  "fp32": {
+    "state_dict_bytes": 5102084,
+    "heldout": {
+      "chars_scored": 114432,
+      "nll_nats": 1.4582,
+      "perplexity": 4.298,
+      "bits_per_char": 2.1037,
+      "bits_per_char_ci95": [
+        2.0833,
+        2.1254
+      ],
+      "windows": 894
+    },
+    "word_completion_exact_match": 0.275,
+    "reversal": {
+      "in_dist": 0.9567,
+      "long": 0.15
+    },
+    "latency": {
+      "prefill": {
+        "p50_ms": 1.738,
+        "p95_ms": 2.342,
+        "p99_ms": 2.572,
+        "mean_ms": 1.846
+      },
+      "generate_kv_cache": {
+        "p50_ms": 22.701,
+        "p95_ms": 24.658,
+        "p99_ms": 25.955,
+        "mean_ms": 22.739
+      },
+      "generate_no_cache": {
+        "p50_ms": 76.763,
+        "p95_ms": 84.715,
+        "p99_ms": 103.146,
+        "mean_ms": 77.825
+      }
+    }
+  },
+  "int8_dynamic": {
+    "state_dict_bytes": 1377182,
+    "heldout": {
+      "chars_scored": 114432,
+      "nll_nats": 1.4587,
+      "perplexity": 4.3,
+      "bits_per_char": 2.1045,
+      "bits_per_char_ci95": [
+        2.084,
+        2.1262
+      ],
+      "windows": 894
+    },
+    "word_completion_exact_match": 0.285,
+    "reversal": {
+      "in_dist": 0.9567,
+      "long": 0.155
+    },
+    "latency": {
+      "prefill": {
+        "p50_ms": 2.994,
+        "p95_ms": 3.311,
+        "p99_ms": 3.458,
+        "mean_ms": 2.986
+      },
+      "generate_kv_cache": {
+        "p50_ms": 40.002,
+        "p95_ms": 42.308,
+        "p99_ms": 45.058,
+        "mean_ms": 40.31
+      },
+      "generate_no_cache": {
+        "p50_ms": 115.819,
+        "p95_ms": 124.542,
+        "p99_ms": 135.102,
+        "mean_ms": 116.756
+      }
+    }
+  }
+}

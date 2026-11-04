@@ -1,0 +1,13 @@
+{
+  "name": "full",
+  "seed": 1234,
+  "device": "cpu",
+  "threads": 4,
+  "model": {"d_model": 160, "n_heads": 4, "n_layers": 4, "d_ff": 640, "max_len": 128, "dropout": 0.1},
+  "train": {"steps": 3000, "batch": 32, "lr": 0.002, "warmup": 150, "weight_decay": 0.1, "eval_every": 100, "eval_windows": 256},
+  "bigram": {"alpha": 0.1},
+  "sft": {"steps": 300, "task_batch": 32, "lm_batch": 16, "lr": 0.0005, "n_train_words": 2000},
+  "dpo": {"steps": 150, "batch": 32, "lr": 0.00003, "beta": 0.1, "n_pairs": 256, "nll_weight": 1.0},
+  "evals": {"max_items": 0, "max_chars": 0},
+  "quant": {"runs": 300, "warmup": 20, "prompt_len": 64, "new_tokens": 32}
+}

@@ -1,0 +1,82 @@
+{
+  "split": "validation",
+  "rule": "pick the candidate with the highest\nin-distribution exact match on validation words; break ties on long words",
+  "sft": {
+    "in_dist": {
+      "n": 200,
+      "exact_match": 0.945,
+      "mean_length_error": -0.02
+    },
+    "long": {
+      "n": 150,
+      "exact_match": 0.0933,
+      "mean_length_error": -2.42
+    }
+  },
+  "dpo": [
+    {
+      "lr": 0.0001,
+      "nll_weight": 0.0,
+      "pairs": 229,
+      "in_dist": {
+        "n": 200,
+        "exact_match": 0.26,
+        "mean_length_error": 0.57
+      },
+      "long": {
+        "n": 150,
+        "exact_match": 0.0267,
+        "mean_length_error": -2.153
+      }
+    },
+    {
+      "lr": 1e-05,
+      "nll_weight": 0.0,
+      "pairs": 229,
+      "in_dist": {
+        "n": 200,
+        "exact_match": 0.48,
+        "mean_length_error": 0.565
+      },
+      "long": {
+        "n": 150,
+        "exact_match": 0.3067,
+        "mean_length_error": -1.587
+      }
+    },
+    {
+      "lr": 0.0001,
+      "nll_weight": 1.0,
+      "pairs": 229,
+      "in_dist": {
+        "n": 200,
+        "exact_match": 0.905,
+        "mean_length_error": 0.075
+      },
+      "long": {
+        "n": 150,
+        "exact_match": 0.04,
+        "mean_length_error": -2.393
+      }
+    },
+    {
+      "lr": 3e-05,
+      "nll_weight": 1.0,
+      "pairs": 229,
+      "in_dist": {
+        "n": 200,
+        "exact_match": 0.905,
+        "mean_length_error": 0.09
+      },
+      "long": {
+        "n": 150,
+        "exact_match": 0.1667,
+        "mean_length_error": -2.027
+      }
+    }
+  ],
+  "chosen": {
+    "lr": 3e-05,
+    "nll_weight": 1.0
+  }
+}

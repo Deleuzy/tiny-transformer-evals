@@ -1,0 +1,13 @@
+{
+  "name": "tiny",
+  "seed": 1234,
+  "device": "cpu",
+  "threads": 2,
+  "model": {"d_model": 32, "n_heads": 2, "n_layers": 1, "d_ff": 64, "max_len": 64, "dropout": 0.0},
+  "train": {"steps": 40, "batch": 16, "lr": 0.003, "warmup": 5, "weight_decay": 0.1, "eval_every": 20, "eval_windows": 32},
+  "bigram": {"alpha": 0.1},
+  "sft": {"steps": 10, "task_batch": 8, "lm_batch": 4, "lr": 0.001, "n_train_words": 200},
+  "dpo": {"steps": 5, "batch": 8, "lr": 0.0001, "beta": 0.1, "n_pairs": 16, "nll_weight": 1.0},
+  "evals": {"max_items": 20, "max_chars": 4000},
+  "quant": {"runs": 10, "warmup": 2, "prompt_len": 32, "new_tokens": 8}
+}

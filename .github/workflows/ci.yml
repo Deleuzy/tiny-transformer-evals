@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  checks:
+    name: Lint, strict types, tests, tiny run end to end
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      # Torch from the CPU index keeps the install small; the lockfile pins every other package.
+      - run: uv sync --locked
+      - run: uv run ruff check .
+      - run: uv run mypy
+      - run: uv run pytest -q
+      # The eval sets must rebuild byte for byte from the committed corpus.
+      - name: Eval sets are reproducible
+        run: |
+          uv run python -m tte build-evals
+          git diff --exit-code evals/
+      # Pretrain, bigram, eval, SFT, eval, DPO, eval, int8 quantization: the whole pipeline on a tiny model.
+      - name: Tiny config end to end
+        run: uv run python -m tte all --config configs/tiny.json
+      - name: Every expected results file was written
+        run: |
+          for f in train_log.json loss_curve.png eval_bigram.json eval_base.json eval_sft.json eval_dpo.json sft_log.json dpo_log.json dpo_pairs.jsonl quant.json; do
+            test -s results/tiny/$f || { echo "missing results/tiny/$f"; exit 1; }
+          done
+      - name: README numbers match the committed full results
+        run: uv run python -m tte report --check
